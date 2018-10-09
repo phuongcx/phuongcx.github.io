@@ -1384,7 +1384,7 @@ var AuthService = /** @class */ (function () {
     }
     AuthService.prototype.Login = function (UserName, Password) {
         var data = "username=" + UserName + "&password=" + Password + "&grant_type=password";
-        return this.http.post("http://www.c135m36.somee.com/token", data)
+        return this.http.post("http://c135m36.somee.com/token", data)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (res) { return res.json(); }));
     };
     AuthService.prototype.SetSession = function (username, result) {
@@ -1451,7 +1451,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var LogService = /** @class */ (function () {
     function LogService(http) {
         this.http = http;
-        this.url = "http://www.c135m36.somee.com/api/Logs";
+        this.url = "http://c135m36.somee.com/api/Logs";
     }
     LogService.prototype.GetAllLogs = function () {
         var reqHeader = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({ 'Content-Type': 'application/x-www-urlencoded', 'No-Auth': 'False' });
@@ -1523,7 +1523,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var RoleService = /** @class */ (function () {
     function RoleService(http) {
         this.http = http;
-        this.url = "http://www.c135m36.somee.com/api/roles";
+        this.url = "http://c135m36.somee.com/api/roles";
     }
     RoleService.prototype.GetAllRoles = function () {
         var reqHeader = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({ 'Content-Type': 'application/x-www-urlencoded', 'No-Auth': 'False' });
@@ -1543,7 +1543,7 @@ var RoleService = /** @class */ (function () {
     };
     RoleService.prototype.GetRoleDetails = function (id) {
         var reqHeader = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({ 'Content-Type': 'application/x-www-urlencoded', 'No-Auth': 'False' });
-        var url = "http://www.c135m36.somee.com/api/roles?uid=";
+        var url = "http://c135m36.somee.com/api/roles?uid=";
         return this.http.get(url + id);
     };
     RoleService = __decorate([
@@ -1585,14 +1585,14 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var UserService = /** @class */ (function () {
     function UserService(http) {
         this.http = http;
-        this.url = "http://www.c135m36.somee.com/api/users/";
+        this.url = "http://c135m36.somee.com/api/users/";
     }
     UserService.prototype.GetAllUsers = function () {
         var reqHeader = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({ 'Content-Type': 'application/x-www-urlencoded', 'No-Auth': 'False' });
         return this.http.get(this.url);
     };
     UserService.prototype.GetUserDetails = function (uid) {
-        var url = "http://www.c135m36.somee.com/api/users?uid=";
+        var url = "http://c135m36.somee.com/api/users?uid=";
         var reqHeader = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({ 'Content-Type': 'application/x-www-urlencoded', 'No-Auth': 'False' });
         return this.http.get(this.url + uid);
     };
@@ -1647,7 +1647,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var UserLogService = /** @class */ (function () {
     function UserLogService(http) {
         this.http = http;
-        this.url = "http://www.c135m36.somee.com/api/UserLogs";
+        this.url = "http://c135m36.somee.com/api/UserLogs";
     }
     UserLogService.prototype.GetAllUserLogs = function (logID) {
         var reqHeader = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({ 'Content-Type': 'application/x-www-urlencoded', 'No-Auth': 'False' });
