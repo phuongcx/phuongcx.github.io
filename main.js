@@ -54,7 +54,6 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 };
 
 
-//import { OverviewComponent } from './overview/overview.component';
 
 
 
@@ -175,28 +174,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var ngx_pagination__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ngx-pagination */ "./node_modules/ngx-pagination/dist/ngx-pagination.js");
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _overview_overview_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./overview/overview.component */ "./src/app/overview/overview.component.ts");
-/* harmony import */ var _share_layout_share_layout_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./share-layout/share-layout.component */ "./src/app/share-layout/share-layout.component.ts");
-/* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
-/* harmony import */ var _user_main_user_main_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./user-main/user-main.component */ "./src/app/user-main/user-main.component.ts");
-/* harmony import */ var _user_details_user_details_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./user-details/user-details.component */ "./src/app/user-details/user-details.component.ts");
-/* harmony import */ var _log_main_log_main_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./log-main/log-main.component */ "./src/app/log-main/log-main.component.ts");
-/* harmony import */ var _log_details_log_details_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./log-details/log-details.component */ "./src/app/log-details/log-details.component.ts");
-/* harmony import */ var _role_role_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./role/role.component */ "./src/app/role/role.component.ts");
-/* harmony import */ var _role_details_role_details_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./role-details/role-details.component */ "./src/app/role-details/role-details.component.ts");
-/* harmony import */ var _service_auth_guard_service__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./service/auth-guard.service */ "./src/app/service/auth-guard.service.ts");
-/* harmony import */ var _service_auth_service__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./service/auth.service */ "./src/app/service/auth.service.ts");
-/* harmony import */ var _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./not-found/not-found.component */ "./src/app/not-found/not-found.component.ts");
-/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
-/* harmony import */ var _forbidden_forbidden_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./forbidden/forbidden.component */ "./src/app/forbidden/forbidden.component.ts");
-/* harmony import */ var _service_auth_interceptor__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./service/auth.interceptor */ "./src/app/service/auth.interceptor.ts");
+/* harmony import */ var _share_layout_share_layout_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./share-layout/share-layout.component */ "./src/app/share-layout/share-layout.component.ts");
+/* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
+/* harmony import */ var _user_main_user_main_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./user-main/user-main.component */ "./src/app/user-main/user-main.component.ts");
+/* harmony import */ var _user_details_user_details_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./user-details/user-details.component */ "./src/app/user-details/user-details.component.ts");
+/* harmony import */ var _log_main_log_main_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./log-main/log-main.component */ "./src/app/log-main/log-main.component.ts");
+/* harmony import */ var _log_details_log_details_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./log-details/log-details.component */ "./src/app/log-details/log-details.component.ts");
+/* harmony import */ var _role_role_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./role/role.component */ "./src/app/role/role.component.ts");
+/* harmony import */ var _role_details_role_details_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./role-details/role-details.component */ "./src/app/role-details/role-details.component.ts");
+/* harmony import */ var _service_auth_guard_service__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./service/auth-guard.service */ "./src/app/service/auth-guard.service.ts");
+/* harmony import */ var _service_auth_service__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./service/auth.service */ "./src/app/service/auth.service.ts");
+/* harmony import */ var _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./not-found/not-found.component */ "./src/app/not-found/not-found.component.ts");
+/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
+/* harmony import */ var _forbidden_forbidden_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./forbidden/forbidden.component */ "./src/app/forbidden/forbidden.component.ts");
+/* harmony import */ var _service_auth_interceptor__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./service/auth.interceptor */ "./src/app/service/auth.interceptor.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
 
 
 
@@ -230,18 +227,17 @@ var AppModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             declarations: [
                 _app_component__WEBPACK_IMPORTED_MODULE_11__["AppComponent"],
-                _overview_overview_component__WEBPACK_IMPORTED_MODULE_12__["OverviewComponent"],
-                _share_layout_share_layout_component__WEBPACK_IMPORTED_MODULE_13__["ShareLayoutComponent"],
-                _login_login_component__WEBPACK_IMPORTED_MODULE_14__["LoginComponent"],
-                _user_main_user_main_component__WEBPACK_IMPORTED_MODULE_15__["UserMainComponent"],
-                _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_23__["NotfoundComponent"],
-                _log_main_log_main_component__WEBPACK_IMPORTED_MODULE_17__["LogMainComponent"],
-                _log_details_log_details_component__WEBPACK_IMPORTED_MODULE_18__["LogDetailsComponent"],
-                _role_role_component__WEBPACK_IMPORTED_MODULE_19__["RoleComponent"],
-                _role_details_role_details_component__WEBPACK_IMPORTED_MODULE_20__["RoleDetailsComponent"],
-                _user_details_user_details_component__WEBPACK_IMPORTED_MODULE_16__["UserDetailsComponent"],
-                _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_24__["DashboardComponent"],
-                _forbidden_forbidden_component__WEBPACK_IMPORTED_MODULE_25__["ForbiddenComponent"]
+                _share_layout_share_layout_component__WEBPACK_IMPORTED_MODULE_12__["ShareLayoutComponent"],
+                _login_login_component__WEBPACK_IMPORTED_MODULE_13__["LoginComponent"],
+                _user_main_user_main_component__WEBPACK_IMPORTED_MODULE_14__["UserMainComponent"],
+                _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_22__["NotfoundComponent"],
+                _log_main_log_main_component__WEBPACK_IMPORTED_MODULE_16__["LogMainComponent"],
+                _log_details_log_details_component__WEBPACK_IMPORTED_MODULE_17__["LogDetailsComponent"],
+                _role_role_component__WEBPACK_IMPORTED_MODULE_18__["RoleComponent"],
+                _role_details_role_details_component__WEBPACK_IMPORTED_MODULE_19__["RoleDetailsComponent"],
+                _user_details_user_details_component__WEBPACK_IMPORTED_MODULE_15__["UserDetailsComponent"],
+                _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_23__["DashboardComponent"],
+                _forbidden_forbidden_component__WEBPACK_IMPORTED_MODULE_24__["ForbiddenComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -259,10 +255,10 @@ var AppModule = /** @class */ (function () {
             schemas: [
                 _angular_core__WEBPACK_IMPORTED_MODULE_1__["CUSTOM_ELEMENTS_SCHEMA"]
             ],
-            providers: [_service_auth_guard_service__WEBPACK_IMPORTED_MODULE_21__["AuthGuardService"], _service_auth_service__WEBPACK_IMPORTED_MODULE_22__["AuthService"],
+            providers: [_service_auth_guard_service__WEBPACK_IMPORTED_MODULE_20__["AuthGuardService"], _service_auth_service__WEBPACK_IMPORTED_MODULE_21__["AuthService"],
                 {
                     provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HTTP_INTERCEPTORS"],
-                    useClass: _service_auth_interceptor__WEBPACK_IMPORTED_MODULE_26__["AuthInterceptor"],
+                    useClass: _service_auth_interceptor__WEBPACK_IMPORTED_MODULE_25__["AuthInterceptor"],
                     multi: true
                 }],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_11__["AppComponent"]]
@@ -282,7 +278,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid\">\n  <!--HEADER-->\n  <div class=\"dashboard-header db-shadow w-100\">\n    <h4>Dashboard</h4>\n  </div>\n  <!--FEATURES-->\n  <div class=\"dashboard-features db-shadow\">\n    <div class=\"row \">\n      <div class=\"col-lg-3 col-12\">\n        <div id=\"db-users\" class=\"dashboard-cards\" title=\"Number of users in database\">\n          <i class=\"fas fa-users\"></i>\n          <p>USERS</p>\n          <p>{{userCount}}</p>\n        </div>\n      </div>\n      <div class=\"col-lg-3 col-12\">\n        <div id=\"db-logs\" class=\"dashboard-cards\" title=\"Number of logs in database\">\n          <i class=\"fas fa-book-open\"></i>\n          <p>LOGS</p>\n          <p>{{logCount}}</p>\n        </div>\n      </div>\n      <div class=\"col-lg-3 col-12\">\n        <div id=\"db-roles\" class=\"dashboard-cards\" title=\"Number of roles in database\">\n          <i class=\"fas fa-clipboard-list\"></i>\n          <p>ROLES</p>\n          <p>{{roleCount}}</p>\n        </div>\n      </div>\n      <div class=\"col-lg-3 col-12\">\n        <div id=\"db-news\" class=\"dashboard-cards\" title=\"Number of today log\"> \n          <i class=\"far fa-calendar-check\"></i>\n          <p>NEWS</p>\n          <p>{{newsCount}}</p>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"row\">\n    <!--TABLE-->\n    <div class=\"col-lg-9\">\n      <table class=\"db-shadow my-4\">\n        <thead>\n            <tr>\n              <th>Log Name</th>\n              <th>Created At</th>\n              <th>Modified At</th>\n              <th>By</th>\n              <th>Status</th>\n            </tr>\n        </thead>\n        <tbody>\n          <tr *ngFor=\"let log of Logs\">\n            <td>{{log.LogName}}</td>\n            <td>{{log.CreateDate | date:'short'}}</td>\n            <td>{{log.ModifyDate | date:'short'}}</td>\n            <td>{{log.FullName}}</td>\n            <td [ngClass]=\"{\n              'text-primary': log.Status == 'Open',\n              'text-danger': log.Status == 'Processing',\n              'text-success': log.Status == 'Done'\n          }\">{{log.Status}}</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n    <div class=\"col-lg-3\">\n      <!--Chart of log data-->\n      <div class=\"dashboard-chart db-shadow my-4\">\n        <div class=\"chart-header\">\n          <h4>Log Data</h4>\n        </div>\n        <p>Open</p>\n        <div class=\"progress my-2\">\n          <div class=\"progress-bar progress-bar-striped progress-bar-animated\" role=\"progressbar\" attr.aria-valuenow=\"{{openPercent}}\" aria-valuemin=\"0\" aria-valuemax=\"100\" [ngStyle]=\"{'width': openPercent+'%'}\"></div>\n          <span>{{openPercent}}%</span>\n        </div>\n        <p>Processing</p>\n        <div class=\"progress my-2\">\n          <div class=\"progress-bar progress-bar-striped progress-bar-animated bg-danger\" role=\"progressbar\" attr.aria-valuenow=\"{{processPercent}}\" aria-valuemin=\"0\" aria-valuemax=\"100\" [ngStyle]=\"{'width': processPercent+'%'}\"></div>\n          <span>{{processPercent}}%</span>\n        </div>\n        <p>Done</p>\n        <div class=\"progress my-2\">\n          <div class=\"progress-bar progress-bar-striped progress-bar-animated bg-success\" role=\"progressbar\" attr.aria-valuenow=\"{{donePercent}}\" aria-valuemin=\"0\" aria-valuemax=\"100\" [ngStyle]=\"{'width': donePercent+'%'}\"></div>\n          <span>{{donePercent }}%</span>\n        </div><br>\n      </div>\n      <!--Chart of daily logs-->\n      <canvas id=\"myChart\" width=\"400\" height=\"400\"></canvas>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"container-fluid\">\n  <!--HEADER-->\n  <div class=\"dashboard-header m-shadow w-100\">\n    <h4>Dashboard</h4>\n  </div>\n  <!--FEATURES-->\n  <div class=\"dashboard-features m-shadow\">\n    <div class=\"row \">\n      <div class=\"col-lg-3 col-12\">\n        <div id=\"db-users\" class=\"dashboard-cards\" title=\"Number of users in database\">\n          <i class=\"fas fa-users\"></i>\n          <p>USERS</p>\n          <p>{{userCount}}</p>\n        </div>\n      </div>\n      <div class=\"col-lg-3 col-12\">\n        <div id=\"db-logs\" class=\"dashboard-cards\" title=\"Number of logs in database\">\n          <i class=\"fas fa-book-open\"></i>\n          <p>LOGS</p>\n          <p>{{logCount}}</p>\n        </div>\n      </div>\n      <div class=\"col-lg-3 col-12\">\n        <div id=\"db-roles\" class=\"dashboard-cards\" title=\"Number of roles in database\">\n          <i class=\"fas fa-clipboard-list\"></i>\n          <p>ROLES</p>\n          <p>{{roleCount}}</p>\n        </div>\n      </div>\n      <div class=\"col-lg-3 col-12\">\n        <div id=\"db-news\" class=\"dashboard-cards\" title=\"Number of today log\"> \n          <i class=\"far fa-calendar-check\"></i>\n          <p>NEWS</p>\n          <p>{{newsCount}}</p>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"row\">\n    <!--TABLE-->\n    <div class=\"col-lg-9\">\n      <table class=\"m-shadow my-4\">\n        <thead>\n            <tr>\n              <th>Log Name</th>\n              <th>Created At</th>\n              <th>Modified At</th>\n              <th>Status</th>\n            </tr>\n        </thead>\n        <tbody>\n          <tr *ngFor=\"let log of LogOverview\">\n            <td>{{log.LogName}}</td>\n            <td>{{log.CreateDate | date:'short'}}</td>\n            <td>{{log.ModifyDate | date:'short'}}</td>\n            <td [ngClass]=\"{\n              'text-primary': log.Status == 'Open',\n              'text-danger': log.Status == 'Processing',\n              'text-success': log.Status == 'Done'\n          }\">{{log.Status}}</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n    <div class=\"col-lg-3\">\n      <!--Chart of log data-->\n      <div class=\"dashboard-chart m-shadow my-4\">\n        <div class=\"chart-header\">\n          <h4>Log Data</h4>\n        </div>\n        <p>Open</p>\n        <div class=\"progress my-2\">\n          <div class=\"progress-bar progress-bar-striped progress-bar-animated\" role=\"progressbar\" attr.aria-valuenow=\"{{openPercent}}\" aria-valuemin=\"0\" aria-valuemax=\"100\" [ngStyle]=\"{'width': openPercent+'%'}\"></div>\n          <span>{{openPercent |number}}%</span>\n        </div>\n        <p>Processing</p>\n        <div class=\"progress my-2\">\n          <div class=\"progress-bar progress-bar-striped progress-bar-animated bg-danger\" role=\"progressbar\" attr.aria-valuenow=\"{{processPercent}}\" aria-valuemin=\"0\" aria-valuemax=\"100\" [ngStyle]=\"{'width': processPercent+'%'}\"></div>\n          <span>{{processPercent|number}}%</span>\n        </div>\n        <p>Done</p>\n        <div class=\"progress my-2\">\n          <div class=\"progress-bar progress-bar-striped progress-bar-animated bg-success\" role=\"progressbar\" attr.aria-valuenow=\"{{donePercent}}\" aria-valuemin=\"0\" aria-valuemax=\"100\" [ngStyle]=\"{'width': donePercent+'%'}\"></div>\n          <span>{{donePercent|number }}%</span>\n        </div><br>\n      </div>\n      <!--Chart of daily logs-->\n      <canvas id=\"myChart\" width=\"400\" height=\"400\"></canvas>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -293,7 +289,7 @@ module.exports = "<div class=\"container-fluid\">\n  <!--HEADER-->\n  <div class
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "@import url(\"https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700\");\n.db-shadow {\n  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);\n  background: #fff; }\n.dashboard-header {\n  padding: 18px 10px 10px 10px;\n  margin-bottom: 15px;\n  font-family: 'Raleway', sans-serif; }\n.dashboard-header h4 {\n  margin-left: 10px; }\n.dashboard-cards {\n  display: flex;\n  padding: 15px;\n  width: 100%;\n  border-right: 1px solid #eee;\n  font-family: 'Raleway', sans-serif; }\n.dashboard-cards i {\n  font-size: 1.5em;\n  padding: 5px;\n  min-width: 50px;\n  max-width: 50px;\n  text-align: center;\n  min-height: 50px;\n  max-height: 50px;\n  border-radius: 100%;\n  color: white;\n  padding-top: 10px; }\n#db-users i {\n  background: #5d2693; }\n#db-logs i {\n  background: #bf0955; }\n#db-roles i {\n  background: #159689; }\n#db-news i {\n  background: #a8a321; }\n.dashboard-cards p:nth-child(2) {\n  font-weight: 300;\n  font-size: 1.5em;\n  margin-left: 15px; }\n.dashboard-cards p:nth-child(3) {\n  font-weight: bold;\n  min-width: 30px;\n  max-width: 30px;\n  min-height: 30px;\n  max-height: 30px;\n  color: red;\n  text-align: center; }\ntable {\n  width: 100%;\n  font-weight: 300; }\ntd, th {\n  border: 0;\n  margin: 0;\n  padding: 0;\n  padding: 20px;\n  border-bottom: 1px solid #eee; }\n.dashboard-chart {\n  height: auto; }\n.dashboard-chart h4, p {\n  margin-left: 15px;\n  font-family: 'Raleway', sans-serif; }\n.dashboard-chart h4 {\n  padding: 10px 0;\n  border-bottom: 1px solid #eee;\n  margin-right: 15px; }\n.progress {\n  width: 90%;\n  margin-left: 15px; }\n"
+module.exports = ".dashboard-header {\n  padding: 18px 10px 10px 10px;\n  margin-bottom: 15px;\n  font-family: 'Raleway', sans-serif; }\n\n.dashboard-header h4 {\n  margin-left: 10px; }\n\n.dashboard-cards {\n  display: flex;\n  padding: 15px;\n  width: 100%;\n  border-right: 1px solid #eee;\n  font-family: 'Raleway', sans-serif; }\n\n.dashboard-cards i {\n  font-size: 1.5em;\n  padding: 5px;\n  min-width: 50px;\n  max-width: 50px;\n  text-align: center;\n  min-height: 50px;\n  max-height: 50px;\n  border-radius: 100%;\n  color: white;\n  padding-top: 10px; }\n\n#db-users i {\n  background: #5d2693; }\n\n#db-logs i {\n  background: #bf0955; }\n\n#db-roles i {\n  background: #159689; }\n\n#db-news i {\n  background: #a8a321; }\n\n.dashboard-cards p:nth-child(2) {\n  font-weight: 300;\n  font-size: 1.5em;\n  margin-left: 15px; }\n\n.dashboard-cards p:nth-child(3) {\n  font-weight: bold;\n  min-width: 30px;\n  max-width: 30px;\n  min-height: 30px;\n  max-height: 30px;\n  color: red;\n  text-align: center; }\n\n.dashboard-chart {\n  height: auto; }\n\n.dashboard-chart h4, p {\n  margin-left: 15px;\n  font-family: 'Raleway', sans-serif; }\n\n.dashboard-chart h4 {\n  padding: 10px 0;\n  border-bottom: 1px solid #eee;\n  margin-right: 15px; }\n\n.progress {\n  width: 90%;\n  margin-left: 15px; }\n"
 
 /***/ }),
 
@@ -308,7 +304,7 @@ module.exports = "@import url(\"https://fonts.googleapis.com/css?family=Raleway:
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DashboardComponent", function() { return DashboardComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var src_app_service_log_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/service/log.service */ "./src/app/service/log.service.ts");
+/* harmony import */ var src_app_service_web_api_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/service/web-api.service */ "./src/app/service/web-api.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -321,30 +317,57 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 var DashboardComponent = /** @class */ (function () {
-    function DashboardComponent(_logService) {
-        this._logService = _logService;
+    function DashboardComponent(_service) {
+        this._service = _service;
+        //count the number of role, user and log
+        this.roleCount = 0;
+        this.userCount = 0;
+        this.logCount = 0;
         this.newsCount = 0;
+        //Percent of Log Data
+        this.openPercent = 0;
+        this.processPercent = 0;
+        this.donePercent = 0;
         //Daily log
         this.Labels = [];
         this.Data = [];
     }
+    /**
+     * Get total of users, logs and roles
+     */
     DashboardComponent.prototype.GetCountTotal = function () {
         var _this = this;
-        this._logService.GetCountTotal().subscribe(function (x) {
+        this._service.FetchAll('Logs/GetCountTotal').subscribe(function (x) {
             _this.userCount = x[0].TotalUsers;
             _this.logCount = x[0].TotalLogs;
             _this.roleCount = x[0].TotalRoles;
         });
     };
+    /**
+     * Get log overview
+     */
     DashboardComponent.prototype.GetAllLog = function () {
         var _this = this;
-        this._logService.GetLogOverview().subscribe(function (x) {
+        this._service.FetchAll('logs/GetLogOverview').subscribe(function (x) {
             /*Process the LOG DATA */
-            _this.Logs = x;
+            _this.LogOverview = x; //this.LogOverview now have all logs
+        });
+    };
+    /**
+     * Count percent of logs and process the chart
+     */
+    DashboardComponent.prototype.CountPercent = function () {
+        var _this = this;
+        this._service.FetchAll('logs/').subscribe(function (x) {
+            /*Process the LOG DATA */
+            _this.Logs = x; //this.Logs now have all logs
+            //classify open logs, process logs and done logs
             var openCount = 0;
             var processCount = 0;
             var doneCount = 0;
+            //Do with each item in logs
             _this.Logs.forEach(function (i) {
+                //Count every specific logs
                 if (i.Status == 'Open') {
                     openCount++;
                 }
@@ -354,45 +377,54 @@ var DashboardComponent = /** @class */ (function () {
                 else {
                     doneCount++;
                 }
-                /** LOG DATA */
-                var dateString = new Date(i.CreateDate);
-                var dateNow = new Date();
+                /** LOG DATA PHASE PROCESS*/
+                var dateString = new Date(i.CreateDate); //Convert CreateDate from database to Date type (default: string)
+                console.log(label);
+                var dateNow = new Date(); //Get the current Date
+                //Check if they have same date, we will increase the news
                 if (dateString.getDate() == dateNow.getDate()
                     && dateString.getMonth() == dateNow.getMonth()
                     && dateString.getFullYear() == dateNow.getFullYear()) {
                     _this.newsCount++;
                 }
-                /** DAILY LOG */
-                var label = dateString.getDate() + "/" + (dateString.getMonth() + 1);
+                /** DAILY LOG PHASE PROCESS*/
+                //Create label X in the chart with format (DD/MM)
+                var label = dateString.getDate() + "/" + (dateString.getMonth() + 1); //Month increase 1 because the started from 0
                 var countLabel = 0;
+                //Now we will check if the label is existing before
+                //If not, we will add to the chart
                 if (_this.Labels.indexOf(label) == -1) {
-                    _this.Labels.unshift(label);
+                    _this.Labels.push(label); //Add label to chart
+                    //We create new loop to count every log in this date
                     _this.Logs.forEach(function (j) {
-                        var dateSubString = new Date(j.CreateDate);
-                        var dateLabel = dateSubString.getDate() + "/" + (dateSubString.getMonth() + 1);
+                        var dateSubString = new Date(j.CreateDate); //Convert CreateDate
+                        var dateLabel = dateSubString.getDate() + "/" + (dateSubString.getMonth() + 1); //Format (DD/MM)
+                        //If they have the same date, we will increase the counter
                         if (dateLabel === label) {
                             countLabel++;
                         }
                     });
+                    //Add the counter we counted before to Y axis of Chart
                     _this.Data.unshift(countLabel);
                 }
+                //Limit show to the chart to 5
                 if (_this.Labels.length > 5) {
                     _this.Labels.slice(0, 5);
                     _this.Data.slice(0, 5);
                 }
+                //Draw chart
                 _this.DrawChart();
             });
+            //Calculate the percent of logs (open, process, done)
             var allLogs = openCount + processCount + doneCount;
             _this.openPercent = (openCount * 100) / allLogs;
             _this.processPercent = (processCount * 100) / allLogs;
             _this.donePercent = (doneCount * 100) / allLogs;
         });
     };
-    DashboardComponent.prototype.CountPercentLogData = function () {
-    };
+    //Draw chart using ChartJS
     DashboardComponent.prototype.DrawChart = function () {
-        var ctx = document.getElementById("myChart"); //.getContext('2d');
-        var Chart;
+        var ctx = document.getElementById("myChart").getContext('2d');
         var myChart = new Chart(ctx, {
             type: 'line',
             data: {
@@ -421,17 +453,21 @@ var DashboardComponent = /** @class */ (function () {
         });
     };
     DashboardComponent.prototype.ngOnInit = function () {
+        //Count total of users, logs, roles
         this.GetCountTotal();
+        //show all overview logs
         this.GetAllLog();
+        //Count percents of logs
+        this.CountPercent();
     };
     DashboardComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-dashboard',
             template: __webpack_require__(/*! ./dashboard.component.html */ "./src/app/dashboard/dashboard.component.html"),
             styles: [__webpack_require__(/*! ./dashboard.component.scss */ "./src/app/dashboard/dashboard.component.scss")],
-            providers: [src_app_service_log_service__WEBPACK_IMPORTED_MODULE_1__["LogService"]]
+            providers: [src_app_service_web_api_service__WEBPACK_IMPORTED_MODULE_1__["WebAPIService"], { provide: 'Url', useValue: 'http://localhost:19949/api/' }]
         }),
-        __metadata("design:paramtypes", [src_app_service_log_service__WEBPACK_IMPORTED_MODULE_1__["LogService"]])
+        __metadata("design:paramtypes", [src_app_service_web_api_service__WEBPACK_IMPORTED_MODULE_1__["WebAPIService"]])
     ], DashboardComponent);
     return DashboardComponent;
 }());
@@ -510,7 +546,7 @@ var ForbiddenComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid\">\n  <i class=\"fas fa-chevron-circle-left float-right\" title=\"Back to Log management\" routerLink=\"/log-main\"></i>\n    <h4><span id=\"status\">Title</span> {{ log.LogName }} \n      <i class=\"far fa-edit\" title=\"Edit this log\" data-target=\"#EditLogModal\" data-toggle=\"modal\" (click)=\"InitalDescriptionNgModel()\"></i>\n    </h4>\n      <div class=\"info\">\n      <p><span>Create Date:</span> {{log.CreateDate | date: 'dd/MM/yyyy hh:mm'}}</p>\n      <p><span>Modify Date:</span> {{ log.ModifyDateLog | date: 'dd/MM/yyyy hh:mm' }}</p>\n      <p><span>Log Type:</span> {{ log.LogType }}</p>\n      <p><span>Status:</span> <q id=\"status\">{{ log.Status }}</q></p>\n      <div class=\"desc w-100\">\n          <p class=\"w-100 d-inline\"><span>Description: </span></p>\n          <div class=\"d-inline\" [innerHTML]=\"log.Description\"></div>\n      </div>\n    </div>\n</div>\n<table class=\"db-shadow my-4\">\n    <thead>\n        <tr>\n          <th>Fullname</th>\n          <th>Username</th>\n          <th>Modified Date</th>\n        </tr>\n    </thead>\n    <tbody>\n      <tr *ngFor=\"let item of userlogs\">\n        <td>{{ item.FullName }}</td>\n        <td>{{ item.UserName }}</td>\n        <td>{{ item.ModifyDateUserLog | date: 'dd/MM/yyyy hh:mm' }}</td>\n      </tr>\n    </tbody>\n  </table>\n<!-- <h2>Log Details</h2>\n<hr />\n<div class=\"table-responsive\">\n  <table class=\"table table-bordered\">\n    <tbody id=\"tbodyLogMain\">\n      <tr>\n        <th>Log Name</th>\n        <td>{{ log?.LogName }}</td>\n      </tr>\n      <tr>\n        <th>Create Date</th>\n        <td>{{ log?.CreateDate | date: 'dd/MM/yyyy hh:mm' }}</td>\n      </tr>\n      <tr>\n        <th>Last Modified Date</th>\n        <td>{{ log?.ModifyDateLog | date: 'dd/MM/yyyy hh:mm' }}</td>\n      </tr>\n      <tr>\n          <th>Type</th>\n          <td>{{ log?.LogType }}</td>\n        </tr>\n      <tr>\n        <th>Status</th>\n        <td>{{ log?.Status }}</td>\n      </tr>\n      <tr>\n        <th>Description</th>\n        <td [innerHTML]=\"log?.Description\"></td>\n      </tr>\n    </tbody>\n  </table>\n  <div *ngIf=\"userlogs?.length > 0\" class=\"table-responsive row d-flex justify-content-center\">\n    <table class=\"table table-bordered table-hover col-lg-7\" style=\"text-align: center\">\n      <thead class=\"bg-info\">\n        <tr>\n          <th>FullName</th>\n          <th>UserName</th>\n          <th>Modified Date</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr *ngFor=\"let item of userlogs\">\n          <td>{{ item.FullName }}</td>\n          <td>{{ item.UserName }}</td>\n          <td>{{ item.ModifyDateUserLog | date: 'dd/MM/yyyy hh:mm' }}</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n  <br>\n  <div class=\"bnt-add\">\n    <button class=\"btn btn-danger mr-1\" routerLink=\"/log-main\"><i class=\"fa fa-reply\"></i></button>\n    <button data-target=\"#EditLogModal\" data-toggle=\"modal\" class=\"btn btn-success\" (click)=\"InitalDescriptionNgModel()\"><i class=\"fa fa-edit\"></i>Edit</button>\n  </div>\n</div> -->\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"EditLogModal\" role=\"dialog\">\n  <div class=\"modal-dialog\" style=\"max-width: 50%;\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\" style=\"border-radius:5px 5px 0px 0px;background-color:#474747;color:white\">\n        <h5 class=\"modal-title\">Are you sure you want to edit log information?</h5>\n        <button type=\"button\" class=\"close text-light\" data-dismiss=\"modal\">\n          &times;\n        </button>\n      </div>\n      <form (ngSubmit)=\"OnSubmit(formEditLog);\" #formEditLog=\"ngForm\">\n        <div class=\"modal-body\">\n          <div class=\"form-horizontal\">\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <label class=\"control-label col-lg-2\">Log Name</label>\n                <div class=\"col-lg-9\">\n                  <input class=\"form-control\" type=\"text\" ngModel=\"{{ log?.LogName }}\" name=\"logName\" #logName=\"ngModel\"\n                    required maxlength=\"50\" />\n                  <div *ngIf=\"(logName.errors?.maxlength || logName.errors?.required) && (logName.touched || logName.dirty)\"\n                    class=\"alert alert-danger\" role=\"alert\">\n                    <div [hidden]=\"!logName.errors?.required\">\n                      LogName is required\n                    </div>\n                    <div [hidden]=\"!logName.errors?.maxlength\">\n                      LogName cannot be more than 50 characters long\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <label class=\"control-label col-lg-2\">Log Type</label>\n                <div class=\"col-lg-9\">\n                  <select class=\"form-control\" id=\"logType\" ngModel=\"{{ log?.LogType }}\" name=\"logType\" #logType=\"ngModel\">\n                    <option value=\"Info\">\n                      Info\n                    </option>\n                    <option value=\"Error\">\n                      Error\n                    </option>\n                    <option value=\"Auto Log\">\n                      Auto Log\n                    </option>\n                  </select>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <label class=\"control-label col-lg-2\">Status</label>\n                <div class=\"col-lg-9\">\n                  <select class=\"form-control\" id=\"status\" ngModel=\"{{ log?.Status }}\" name=\"status\" #status=\"ngModel\">\n                    <option value=\"Open\">\n                      Open\n                    </option>\n                    <option value=\"Processing\">\n                      Processing\n                    </option>\n                    <option value=\"Done\">\n                      Done\n                    </option>\n                  </select>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <label class=\"control-label col-lg-2\">Description</label>\n                <div class=\"col-lg-9\">\n                  <angular-editor [config]=\"editorConfig\" [(ngModel)]=\"descriptionNgModel\" name=\"description\"></angular-editor>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"modal-footer text-center\">\n          <div class=\"form-actions no-color text-center\">\n            <input class=\"btn btn-outline-dark mr-1\" type=\"submit\" value=\"Save\" />\n            <input class=\"btn btn-outline-dark\" data-dismiss=\"modal\" value=\"Cancel\" />\n          </div>\n        </div>\n      </form>\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"container-fluid m-details\">\n  <i class=\"fas fa-chevron-circle-left float-right\" title=\"Back to Log management\" routerLink=\"/log-main\"></i>\n    <h4 class=\"m-title\"><span id=\"status\">Title</span> {{ logDetails?.LogName }} \n      <i class=\"far fa-edit\" title=\"Edit this log\" data-target=\"#EditLogModal\" data-toggle=\"modal\" (click)=\"InitalDescriptionNgModel()\"></i>\n    </h4>\n      <div class=\"info\">\n      <p><span>Create Date:</span> {{logDetails?.CreateDate | date: 'dd/MM/yyyy hh:mm'}}</p>\n      <p><span>Modify Date:</span> {{ logDetails?.ModifyDateLog | date: 'dd/MM/yyyy hh:mm' }}</p>\n      <p><span>Log Type:</span> {{ logDetails?.LogType }}</p>\n      <p><span>Status:</span> <q id=\"status\">{{ logDetails?.Status }}</q></p>\n      <div class=\"desc w-100\">\n          <p class=\"w-100 d-inline\"><span>Description: </span></p>\n          <div class=\"d-inline\" [innerHTML]=\"logDetails?.Description\"></div>\n      </div>\n    </div>\n</div>\n<table class=\"m-shadow my-4\">\n    <thead>\n        <tr>\n          <th>Fullname</th>\n          <th>Username</th>\n          <th>Modified Date</th>\n        </tr>\n    </thead>\n    <tbody>\n      <tr *ngFor=\"let item of userlogs\">\n        <td>{{ item.FullName }}</td>\n        <td>{{ item.UserName }}</td>\n        <td>{{ item.ModifyDateUserLog | date: 'dd/MM/yyyy hh:mm' }}</td>\n      </tr>\n    </tbody>\n  </table>\n  \n<!-- Modal -->\n<div class=\"modal fade\" id=\"EditLogModal\" role=\"dialog\">\n  <div class=\"modal-dialog\" style=\"max-width: 50%;\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\" style=\"border-radius:5px 5px 0px 0px;background-color:#474747;color:white\">\n        <h5 class=\"modal-title\">Are you sure you want to edit log information?</h5>\n        <button type=\"button\" class=\"close text-light\" data-dismiss=\"modal\">\n          &times;\n        </button>\n      </div>\n      <form (ngSubmit)=\"OnSubmit(formEditLog);\" #formEditLog=\"ngForm\">\n        <div class=\"modal-body\">\n          <div class=\"form-horizontal\">\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <label class=\"control-label col-lg-2\">Log Name</label>\n                <div class=\"col-lg-9\">\n                  <input class=\"form-control\" type=\"text\" ngModel=\"{{ logDetails?.LogName }}\" name=\"logName\" #logName=\"ngModel\"\n                    required maxlength=\"50\" />\n                  <div *ngIf=\"(logName.errors?.maxlength || logName.errors?.required) && (logName.touched || logName.dirty)\"\n                    class=\"alert alert-danger\" role=\"alert\">\n                    <div [hidden]=\"!logName.errors?.required\">\n                      LogName is required\n                    </div>\n                    <div [hidden]=\"!logName.errors?.maxlength\">\n                      LogName cannot be more than 50 characters long\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <label class=\"control-label col-lg-2\">Log Type</label>\n                <div class=\"col-lg-9\">\n                  <select class=\"form-control\" id=\"logType\" ngModel=\"{{ logDetails?.LogType }}\" name=\"logType\" #logType=\"ngModel\">\n                    <option value=\"Info\">\n                      Info\n                    </option>\n                    <option value=\"Error\">\n                      Error\n                    </option>\n                    <option value=\"Auto Log\">\n                      Auto Log\n                    </option>\n                  </select>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <label class=\"control-label col-lg-2\">Status</label>\n                <div class=\"col-lg-9\">\n                  <select class=\"form-control\" id=\"status\" ngModel=\"{{ logDetails?.Status }}\" name=\"status\" #status=\"ngModel\">\n                    <option value=\"Open\">\n                      Open\n                    </option>\n                    <option value=\"Processing\">\n                      Processing\n                    </option>\n                    <option value=\"Done\">\n                      Done\n                    </option>\n                  </select>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <label class=\"control-label col-lg-2\">Description</label>\n                <div class=\"col-lg-9\">\n                  <angular-editor [config]=\"editorConfig\" [(ngModel)]=\"descriptionNgModel\" name=\"description\"></angular-editor>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"modal-footer text-center\">\n          <div class=\"form-actions no-color text-center\">\n            <input class=\"btn btn-outline-dark mr-1\" type=\"submit\" value=\"Save\" />\n            <input class=\"btn btn-outline-dark\" data-dismiss=\"modal\" value=\"Cancel\" />\n          </div>\n        </div>\n      </form>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -521,7 +557,7 @@ module.exports = "<div class=\"container-fluid\">\n  <i class=\"fas fa-chevron-c
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".container-fluid h4 {\n  padding-top: 15px;\n  padding-bottom: 15px;\n  font-weight: 300;\n  border-bottom: 1px solid #eee; }\n\n.container-fluid .fa-chevron-circle-left {\n  font-size: 2em;\n  margin-top: 10px;\n  transition: all 0.3s; }\n\n.container-fluid .fa-edit {\n  margin-left: 15px; }\n\n.container-fluid i:hover {\n  color: #c4c4c4;\n  cursor: pointer; }\n\n.container-fluid i:active {\n  outline: none; }\n\n.container-fluid span {\n  font-weight: 500;\n  margin-right: 10px; }\n\n.container-fluid #status {\n  color: white;\n  background: #333333;\n  padding: 5px 10px;\n  border-radius: 5px; }\n\n.info {\n  border-bottom: 1px solid #eee;\n  width: 100%;\n  padding-bottom: 10px;\n  margin-left: 20px; }\n\n.db-shadow {\n  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);\n  background: #fff; }\n\ntable {\n  width: 100%;\n  font-weight: 300; }\n\ntd, th {\n  border: 0;\n  margin: 0;\n  padding: 0;\n  padding: 20px;\n  border-bottom: 1px solid #eee; }\n"
+module.exports = ""
 
 /***/ }),
 
@@ -582,7 +618,7 @@ var LogDetailsComponent = /** @class */ (function () {
             this.httpSubscription.add(this.logService.GetLogByID(this.logID)
                 .subscribe(function (result) {
                 if (result) {
-                    _this.log = result[0];
+                    _this.logDetails = result[0];
                     _this.tempDescriptionNgModel = result[0].Description;
                 }
                 else {
@@ -635,7 +671,7 @@ var LogDetailsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid\">\n  <h4>Log Management  <i class=\"fas fa-plus-circle add\" title=\"Add new log\" data-target=\"#CreateLogModal\" data-toggle=\"modal\"></i></h4>\n  <form (ngSubmit)=\"SearchLog();\">\n    <mat-form-field class=\"example-full-width\">\n        <input id=\"search-form\" name=\"username\" type=\"text\" class=\"form-control d-inline\" placeholder=\"Search by log name...\"\n          size=\"40px\" matInput [formControl]=\"myControl\" [matAutocomplete]=\"autocomplete\">\n        <mat-autocomplete #autocomplete=\"matAutocomplete\">\n          <mat-option *ngFor=\"let option of filteredOption | async\" [value]=\"option.LogName\">\n            {{ option.LogName }}\n          </mat-option>\n        </mat-autocomplete>\n      </mat-form-field>\n      <button id=\"search-button\" class=\"btn btn-outline-secondary\"><i class=\"fas fa-search\"></i></button>\n    </form><br>\n  <div class=\"log-table\">\n    <div [attr.id]=\"item.LogId\" class=\"log db-shadow\" *ngFor=\"let item of logs | filter: filter | paginate: { itemsPerPage: 5, currentPage: p }\">\n      <div class=\"head\">\n          <i class=\"fas fa-info-circle text-warning\" title=\"This log type is info\" *ngIf=\"item.LogType == 'Info'\"></i>\n          <i class=\"fas fa-exclamation-triangle text-danger\" title=\"This log type is error\" *ngIf=\"item.LogType == 'Error'\"></i>\n          <i class=\"fas fa-laptop-code text-secondary\" title=\"This log type is Auto\" *ngIf=\"item.LogType == 'Auto Log'\"></i>\n        <a routerLink=\"/log-details/{{ item.LogId }}\" id=\"title\">{{item.LogName}}</a>\n        <p id=\"status\" [ngClass]=\"{\n          'bg-primary': item.Status == 'Open',\n          'bg-danger': item.Status == 'Processing',\n          'bg-success': item.Status == 'Done'\n        }\">{{ item.Status }}</p>\n      </div>\n      <div class=\"date\">\n        <p><span class=\"font-weight-bold\">Created at: </span>{{ item.CreateDate | date: 'dd/MM/yyyy hh:mm' }}</p>\n        <p><span class=\"font-weight-bold\">Modified at: </span>{{ item.ModifyDate | date: 'dd/MM/yyyy hh:mm' }}</p>\n        <i title=\"Remove this log\" class=\"fas fa-trash-alt\" (click)=\"setId(item.LogId)\" data-target=\"#deleteModal\" data-toggle=\"modal\"></i>\n      </div>\n    </div>\n  </div>\n  <br>\n  <pagination-controls class=\"d-flex justify-content-end\" (pageChange)=\"p = $event\"></pagination-controls>\n  <div *ngIf=\"logs?.length == 0\">\n    <h2>Sorry No Result Found</h2>\n  </div>\n</div>\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"CreateLogModal\" role=\"dialog\">\n  <div class=\"modal-dialog\" style=\"max-width: 50%;\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\" style=\"border-radius:5px 5px 0px 0px;background-color:#474747;color:white\">\n        <h5 class=\"modal-title\">Create new log</h5>\n        <button type=\"button\" class=\"close text-light\" data-dismiss=\"modal\">\n          &times;\n        </button>\n      </div>\n      <form (ngSubmit)=\"OnSubmit(formAddLog);\" #formAddLog=\"ngForm\">\n        <div class=\"modal-body\">\n          <div class=\"form-horizontal\">\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <label class=\"control-label col-lg-2\">Log Name</label>\n                <div class=\"col-lg-9\">\n                  <input id=\"logName\" class=\"form-control\" type=\"text\" ngModel name=\"logName\" #logName=\"ngModel\"\n                    required maxlength=\"50\" />\n                  <div *ngIf=\"(logName.errors?.maxlength || logName.errors?.required) && (logName.touched || logName.dirty)\"\n                    class=\"alert alert-danger\" role=\"alert\">\n                    <div [hidden]=\"!logName.errors?.required\">\n                      LogName is required\n                    </div>\n                    <div [hidden]=\"!logName.errors?.maxlength\">\n                      LogName cannot be more than 50 characters long\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <label class=\"control-label col-lg-2\">Log Type</label>\n                <div class=\"col-lg-9\">\n                  <select id=\"logType\" class=\"form-control\" id=\"logType\" [(ngModel)]=\"logTypeNgModel\" name=\"logType\"\n                    #logType=\"ngModel\">\n                    <option value=\"Info\">\n                      Info\n                    </option>\n                    <option value=\"Error\">\n                      Error\n                    </option>\n                    <option value=\"Auto Log\">\n                      Auto Log\n                    </option>\n                  </select>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <label class=\"control-label col-lg-2\">Status</label>\n                <div class=\"col-lg-9\">\n                  <select id=\"status\" class=\"form-control\" id=\"status\" [(ngModel)]=\"statusNgModel\" name=\"status\"\n                    #status=\"ngModel\">\n                    <option value=\"Open\">\n                      Open\n                    </option>\n                    <option value=\"Processing\">\n                      Processing\n                    </option>\n                    <option value=\"Done\">\n                      Done\n                    </option>\n                  </select>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <label class=\"control-label col-lg-2\">Description</label>\n                <div class=\"col-lg-9\">\n                  <angular-editor [config]=\"editorConfig\" [(ngModel)]=\"descriptionNgModel\" name=\"description\"></angular-editor>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"modal-footer text-center\">\n          <div class=\"form-actions no-color text-center\">\n            <input class=\"btn btn-outline-dark mr-1\" type=\"submit\" value=\"Save\" />\n            <input class=\"btn btn-outline-dark\" data-dismiss=\"modal\" value=\"Cancel\" />\n          </div>\n        </div>\n      </form>\n    </div>\n  </div>\n</div>\n\n<!-- Modal Delete -->\n<div class=\"modal fade\" id=\"deleteModal\" tabindex=\"-1\" role=\"dialog\">\n    <div class=\"modal-dialog\" role=\"document\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <h4 class=\"modal-title\" id=\"myModalLabel\">Confirm Delete?</h4>\n                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                    <span aria-hidden=\"true\">×</span>\n                    <span class=\"sr-only\">Close</span>\n                </button>\n            </div>\n            <div class=\"modal-body\">\n                <p>Do you really wanna delete this log ?</p>\n            </div>\n            <div class=\"modal-footer\">\n                <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">No</button>\n                <button type=\"button\" class=\"btn btn-primary-outline\" (click)=\"DeleteLog(LogIdPicked)\" data-dismiss=\"modal\">Yes</button>\n            </div>\n        </div>\n    </div>\n</div>\n"
+module.exports = "<div class=\"container-fluid\">\n  <h4 class=\"m-title\">Log Management <i class=\"fas fa-plus-circle add\" title=\"Add new log\" data-target=\"#CreateLogModal\" data-toggle=\"modal\"></i></h4>\n  <form (ngSubmit)=\"SearchLog();\">\n    <mat-form-field class=\"example-full-width\">\n      <input id=\"search-form\" name=\"username\" type=\"text\" class=\"form-control d-inline\" placeholder=\"Search by log name...\"\n        matInput [formControl]=\"myControl\" [matAutocomplete]=\"autocomplete\">\n      <mat-autocomplete #autocomplete=\"matAutocomplete\">\n        <mat-option *ngFor=\"let option of filteredOption | async\" [value]=\"option\">\n          {{ option }}\n        </mat-option>\n      </mat-autocomplete>\n    </mat-form-field>\n    <button id=\"search-button\" class=\"btn btn-outline-secondary\"><i class=\"fas fa-search\"></i></button>\n  </form><br>\n  <div *ngIf=\"logs?.length == 0\">\n    <h2>Sorry No Result Found</h2>\n  </div>\n  <div *ngIf=\"logs?.length > 0\" class=\"log-table\">\n    <div [attr.id]=\"item.LogId\" class=\"log m-shadow\" *ngFor=\"let item of logs\">\n      <div class=\"head\">\n          <p id=\"status\" class=\"mr-5\" [ngClass]=\"{\n            'bg-primary': item.Status == 'Open',\n            'bg-danger': item.Status == 'Processing',\n            'bg-success': item.Status == 'Done'\n          }\">{{ item.Status }}</p>\n        <i class=\"fas fa-info-circle text-warning\" title=\"This log type is info\" *ngIf=\"item.LogType == 'Info'\"></i>\n        <i class=\"fas fa-exclamation-triangle text-danger\" title=\"This log type is error\" *ngIf=\"item.LogType == 'Error'\"></i>\n        <i class=\"fas fa-laptop-code text-secondary\" title=\"This log type is Auto\" *ngIf=\"item.LogType == 'Auto Log'\"></i>\n        <a routerLink=\"/log-details/{{ item.LogId }}\" id=\"title\">{{item.LogName}}</a>\n      </div>\n      <div class=\"date\">\n        <p><span class=\"font-weight-bold\">Created at: </span>{{ item.CreateDate | date: 'dd/MM/yyyy hh:mm' }}</p>\n        <p><span class=\"font-weight-bold\">Modified at: </span>{{ item.ModifyDate | date: 'dd/MM/yyyy hh:mm' }}</p>\n        <i title=\"Remove this log\" class=\"fas fa-trash-alt\" (click)=\"setId(item.LogId)\" data-target=\"#deleteModal\"\n          data-toggle=\"modal\"></i>\n      </div>\n    </div>\n    <nav aria-label=\"Pagination for log-main page\">\n      <ul class=\"pagination\">\n        <li [ngClass]=\"{'page-item': true, 'disabled': currentPage == 1}\" id=\"page-first\" (click)=\"ClickFirstPage();\">\n          <a class=\"page-link\" aria-label=\"First\">\n            <i class=\"fas fa-angle-double-left\"></i>\n          </a>\n        </li>\n        <li [ngClass]=\"{'page-item': true, 'disabled': currentPage == 1}\" id=\"page-previous\">\n          <a class=\"page-link\" aria-label=\"Previous\" (click)=\"ClickPreviousPage();\">\n            <i class=\"fas fa-angle-left\"></i>\n          </a>\n        </li>\n        <li *ngFor=\"let page of pageArray\" [ngClass]=\"{'page-item': true, 'active': page == currentPage, 'inactive': page != currentPage}\"\n          id=\"{{'page-' + page}}\"><a class=\"page-link\" (click)=\"ClickPageNumber(page);\">{{ page }}</a></li>\n        <li [ngClass]=\"{'page-item': true, 'disabled': currentPage == pageNumber}\" id=\"page-next\" (click)=\"ClickNextPage();\">\n          <a class=\"page-link\" aria-label=\"Next\">\n            <i class=\"fa fa-angle-right\"></i>\n          </a>\n        </li>\n        <li [ngClass]=\"{'page-item': true, 'disabled': currentPage == pageNumber}\" id=\"page-last\" (click)=\"ClickLastPage();\">\n          <a class=\"page-link\" aria-label=\"Last\">\n            <i class=\"fas fa-angle-double-right\"></i>\n          </a>\n        </li>\n      </ul>\n    </nav>\n  </div>\n  <br>\n</div>\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"CreateLogModal\" role=\"dialog\">\n  <div class=\"modal-dialog\" style=\"max-width: 50%;\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\" style=\"border-radius:5px 5px 0px 0px;background-color:#474747;color:white\">\n        <h5 class=\"modal-title\">Create new log</h5>\n        <button type=\"button\" class=\"close text-light\" data-dismiss=\"modal\">\n          &times;\n        </button>\n      </div>\n      <form (ngSubmit)=\"OnSubmit(formAddLog);\" #formAddLog=\"ngForm\">\n        <div class=\"modal-body\">\n          <div class=\"form-horizontal\">\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <label class=\"control-label col-lg-2\">Log Name</label>\n                <div class=\"col-lg-9\">\n                  <input id=\"logName\" class=\"form-control\" type=\"text\" ngModel name=\"logName\" #logName=\"ngModel\"\n                    required maxlength=\"50\" />\n                  <div *ngIf=\"(logName.errors?.maxlength || logName.errors?.required) && (logName.touched || logName.dirty)\"\n                    class=\"alert alert-danger\" role=\"alert\">\n                    <div [hidden]=\"!logName.errors?.required\">\n                      LogName is required\n                    </div>\n                    <div [hidden]=\"!logName.errors?.maxlength\">\n                      LogName cannot be more than 50 characters long\n                    </div>\n                  </div>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <label class=\"control-label col-lg-2\">Log Type</label>\n                <div class=\"col-lg-9\">\n                  <select id=\"logType\" class=\"form-control\" id=\"logType\" [(ngModel)]=\"logTypeNgModel\" name=\"logType\"\n                    #logType=\"ngModel\">\n                    <option value=\"Info\">\n                      Info\n                    </option>\n                    <option value=\"Error\">\n                      Error\n                    </option>\n                  </select>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <label class=\"control-label col-lg-2\">Status</label>\n                <div class=\"col-lg-9\">\n                  <select id=\"status\" class=\"form-control\" id=\"status\" [(ngModel)]=\"statusNgModel\" name=\"status\"\n                    #status=\"ngModel\">\n                    <option value=\"Open\">\n                      Open\n                    </option>\n                    <option value=\"Processing\">\n                      Processing\n                    </option>\n                    <option value=\"Done\">\n                      Done\n                    </option>\n                  </select>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <label class=\"control-label col-lg-2\">Description</label>\n                <div class=\"col-lg-9\">\n                  <angular-editor [config]=\"editorConfig\" [(ngModel)]=\"descriptionNgModel\" name=\"description\"></angular-editor>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"modal-footer text-center\">\n          <div class=\"form-actions no-color text-center\">\n            <input class=\"btn btn-outline-dark mr-1\" type=\"submit\" value=\"Save\" />\n            <input class=\"btn btn-outline-dark\" data-dismiss=\"modal\" value=\"Cancel\" />\n          </div>\n        </div>\n      </form>\n    </div>\n  </div>\n</div>\n\n<!-- Modal Delete -->\n<div class=\"modal fade\" id=\"deleteModal\" tabindex=\"-1\" role=\"dialog\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\" id=\"myModalLabel\">Confirm Delete?</h4>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n          <span aria-hidden=\"true\">×</span>\n          <span class=\"sr-only\">Close</span>\n        </button>\n      </div>\n      <div class=\"modal-body\">\n        <p>Do you really wanna delete this log ?</p>\n      </div>\n      <div class=\"modal-footer\">\n        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">No</button>\n        <button type=\"button\" class=\"btn btn-primary-outline\" (click)=\"DeleteLog(LogIdPicked)\" data-dismiss=\"modal\">Yes</button>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -646,7 +682,7 @@ module.exports = "<div class=\"container-fluid\">\n  <h4>Log Management  <i clas
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".example-full-width {\n  width: 100%; }\n\n#search-form {\n  width: calc(100% - 60px);\n  display: inline-block; }\n\n#search-button {\n  float: right;\n  width: 60px; }\n\n.container-fluid h4 {\n  padding-top: 15px;\n  padding-bottom: 15px;\n  font-weight: 300;\n  border-bottom: 1px solid #eee; }\n\n.add {\n  font-size: 1.2em;\n  color: #76c26c;\n  transition: all 0.2s; }\n\n.add:hover {\n  cursor: pointer;\n  color: #78ce6c; }\n\ntable {\n  width: 100%; }\n\n.db-shadow {\n  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);\n  background: #fff; }\n\n.log {\n  margin-top: 5px; }\n\n.log .head i {\n  font-size: 1.3em;\n  display: inline-block;\n  padding: 10px; }\n\n.log .head {\n  width: 100%; }\n\n.log #title {\n  display: inline-block;\n  margin-left: 10px;\n  text-decoration: none; }\n\n.log #status {\n  display: inline-block;\n  margin-left: 15px;\n  font-size: 0.8em;\n  color: white;\n  padding: 5px 10px;\n  border-radius: 5px; }\n\n.log .date {\n  font-size: 0.8em;\n  display: flex;\n  width: 100%;\n  text-align: right; }\n\n.log .date p {\n  margin-left: 15px; }\n\n.log .date i {\n  font-size: 1.4em;\n  margin-left: 15px;\n  color: #b12323;\n  transition: all 0.2s; }\n\n.log .date i:hover {\n  cursor: pointer;\n  color: #e60f0f; }\n"
+module.exports = ".log {\n  margin-top: 5px; }\n\n.log .head i {\n  font-size: 1.3em;\n  display: inline-block;\n  padding: 10px; }\n\n.log .head {\n  width: 100%; }\n\n.log #title {\n  display: inline-block;\n  margin-left: 10px;\n  text-decoration: none; }\n\n.log #status {\n  display: inline-block;\n  margin-left: 15px;\n  font-size: 0.8em;\n  color: white;\n  padding: 5px 10px;\n  border-radius: 5px;\n  width: 80px;\n  text-align: center; }\n\n.log .date {\n  font-size: 0.8em;\n  display: flex;\n  width: 100%;\n  text-align: right; }\n\n.log .date p {\n  margin-left: 15px; }\n\n.log .date i {\n  font-size: 1.4em;\n  margin-left: 15px;\n  color: #b12323;\n  transition: all 0.2s; }\n\n.log .date i:hover {\n  cursor: pointer;\n  color: #e60f0f; }\n"
 
 /***/ }),
 
@@ -684,9 +720,10 @@ var LogMainComponent = /** @class */ (function () {
         this.logService = logService;
         this.logTypeNgModel = 'Info';
         this.statusNgModel = 'Open';
-        this.p = 1;
         this.myControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormControl"]();
         this.userID = localStorage.getItem('userID');
+        this.pageSize = 10;
+        this.pageArray = [];
         this.httpSubscription = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Subscription"]();
         this.editorConfig = {
             editable: true,
@@ -695,7 +732,8 @@ var LogMainComponent = /** @class */ (function () {
     }
     LogMainComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.GetAllLogs();
+        this.PageInit();
+        this.GetAllLogForSearch();
         this.filteredOption = this.myControl.valueChanges
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["startWith"])(''), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (value) { return value.length > 0 ? _this._filter(value.toString()) : []; }));
     };
@@ -707,17 +745,17 @@ var LogMainComponent = /** @class */ (function () {
     };
     LogMainComponent.prototype._filter = function (value) {
         var filterValue = value.toLowerCase();
-        return this.logs.filter(function (result) { return result['LogName'].toLowerCase().includes(filterValue); });
+        return this.filterSearch.filter(function (result) { return result.toLowerCase().includes(filterValue); });
     };
-    LogMainComponent.prototype.GetAllLogs = function () {
+    LogMainComponent.prototype.GetAllLogForSearch = function () {
         var _this = this;
-        this.httpSubscription.add(this.logService.GetAllLogs()
-            .subscribe(function (result) { return _this.logs = result; }));
+        this.httpSubscription.add(this.logService.GetAllLogForSearch()
+            .subscribe(function (result) { return _this.filterSearch = result; }));
     };
     LogMainComponent.prototype.SearchLog = function () {
         var _this = this;
         if (this.myControl.value === '') {
-            this.GetAllLogs();
+            this.GetLogsForPagination();
         }
         else {
             this.httpSubscription.add(this.logService.SearchLog(this.myControl.value)
@@ -728,7 +766,7 @@ var LogMainComponent = /** @class */ (function () {
         var _this = this;
         this.httpSubscription.add(this.logService.CreateLog(this.userID, formAddLog.value)
             .subscribe(function (result) {
-            _this.GetAllLogs();
+            _this.PageInit();
             $('#logName').val('');
             _this.logTypeNgModel = 'Info';
             _this.statusNgModel = 'Open';
@@ -737,10 +775,86 @@ var LogMainComponent = /** @class */ (function () {
         }));
     };
     LogMainComponent.prototype.DeleteLog = function (logID) {
+        var _this = this;
         this.httpSubscription.add(this.logService.DeleteLog(logID)
             .subscribe(function (success) {
-            $('#' + logID).hide();
+            _this.RefeshePageArray();
         }));
+    };
+    LogMainComponent.prototype.RefeshePageArray = function () {
+        var _this = this;
+        this.httpSubscription.add(this.logService.GetCountTotal()
+            .subscribe(function (result) {
+            _this.pageNumber = (result[0].TotalLogs % _this.pageSize == 0 ? result[0].TotalLogs / _this.pageSize : parseInt((result[0].TotalLogs / _this.pageSize) + 1 + ""));
+            _this.pageArray = [];
+            if (_this.currentPage == 1) {
+                for (var i = 1; i <= _this.pageNumber && i <= 5; i++) {
+                    _this.pageArray.push(i);
+                }
+            }
+            else if (_this.currentPage >= _this.pageNumber) {
+                _this.currentPage = _this.pageNumber;
+                for (var i = _this.pageNumber; i >= _this.pageNumber - 4 && i > 0; i--) {
+                    _this.pageArray.unshift(i);
+                }
+            }
+            else {
+                for (var i = _this.pageNumber; i >= _this.pageNumber - 4 && i > 0; i--) {
+                    _this.pageArray.unshift(i);
+                }
+            }
+            _this.GetLogsForPagination();
+        }));
+    };
+    LogMainComponent.prototype.PageInit = function () {
+        this.currentPage = 1;
+        this.RefeshePageArray();
+        this.GetLogsForPagination();
+    };
+    LogMainComponent.prototype.ClickFirstPage = function () {
+        if (this.currentPage > 1) {
+            this.currentPage = 1;
+            this.RefeshePageArray();
+            this.GetLogsForPagination();
+        }
+    };
+    LogMainComponent.prototype.ClickPreviousPage = function () {
+        if (this.currentPage > 1) {
+            if (this.pageArray.indexOf(this.currentPage) == 0) {
+                this.pageArray.pop();
+                this.pageArray.unshift(this.currentPage - 1);
+            }
+            this.currentPage--;
+            this.GetLogsForPagination();
+        }
+    };
+    LogMainComponent.prototype.ClickNextPage = function () {
+        if (this.currentPage < this.pageNumber) {
+            if (this.pageArray.indexOf(this.currentPage) == 4) {
+                this.pageArray.shift();
+                this.pageArray.push(this.currentPage + 1);
+            }
+            this.currentPage++;
+            this.GetLogsForPagination();
+        }
+    };
+    LogMainComponent.prototype.ClickLastPage = function () {
+        if (this.currentPage < this.pageNumber) {
+            this.currentPage = this.pageNumber;
+            this.RefeshePageArray();
+            this.GetLogsForPagination();
+        }
+    };
+    LogMainComponent.prototype.ClickPageNumber = function (pageClicked) {
+        if (pageClicked != this.currentPage) {
+            this.currentPage = pageClicked;
+            this.GetLogsForPagination();
+        }
+    };
+    LogMainComponent.prototype.GetLogsForPagination = function () {
+        var _this = this;
+        this.httpSubscription.add(this.logService.GetLogForPagination((this.currentPage - 1) * this.pageSize, this.pageSize)
+            .subscribe(function (result) { return _this.logs = result; }));
     };
     LogMainComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -923,91 +1037,6 @@ var NotfoundComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/overview/overview.component.html":
-/*!**************************************************!*\
-  !*** ./src/app/overview/overview.component.html ***!
-  \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<h1 class=\"display-4 d-none d-sm-block\">\n    Log Management System Dashboard\n</h1>\n<br>\n<div class=\"row mb-3\">\n    <div class=\"col-xl-4 col-sm-6 py-2\">\n        <div class=\"card bg-success text-white h-100\">\n            <div class=\"card-body bg-success\">\n                <h6 class=\"text-uppercase\">Users</h6>\n                <h1 class=\"display-4\">{{ countInfo?.TotalUsers }}</h1>\n            </div>\n        </div>\n    </div>\n    <div class=\"col-xl-4 col-sm-6 py-2\">\n        <div class=\"card text-white bg-danger h-100\">\n            <div class=\"card-body bg-danger\">\n                <h6 class=\"text-uppercase\">Logs</h6>\n                <h1 class=\"display-4\">{{ countInfo?.TotalLogs }}</h1>\n            </div>\n        </div>\n    </div>\n    <div class=\"col-xl-4 col-sm-6 py-2\">\n        <div class=\"card text-white bg-info h-100\">\n            <div class=\"card-body bg-info\">\n                <h6 class=\"text-uppercase\">Roles</h6>\n                <h1 class=\"display-4\">{{ countInfo?.TotalRoles }}</h1>\n            </div>\n        </div>\n    </div>\n</div>\n\n<!--/row-->\n<a id=\"features\"></a>\n<hr>\n<div class=\"row my-4\">\n    <div class=\"col-lg-12 col-md-8\">\n        <div class=\"table-responsive\">\n            <table class=\"table table-bordered table-hover\">\n                <thead class=\"bg-info\">\n                    <tr>\n                        <th>Log Name</th>\n                        <th>Create Date</th>\n                        <th>Modified Date</th>\n                        <th>By</th>\n                        <th>Status</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr *ngFor=\"let item of logOverview\">\n                        <td>{{ item.LogName }}</td>\n                        <td>{{ item.CreateDate | date: 'dd/MM/yyyy hh:mm' }}</td>\n                        <td>{{ item.ModifyDate | date: 'dd/MM/yyyy hh:mm' }}</td>\n                        <td>{{ item.FullName }}</td>\n                        <td [ngClass]=\"{\n                            'bg-success': item.Status == 'Open',\n                            'bg-warning': item.Status == 'Processing',\n                            'bg-primary': item.Status == 'Done'\n                        }\">{{ item.Status }}</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>\n    </div>"
-
-/***/ }),
-
-/***/ "./src/app/overview/overview.component.scss":
-/*!**************************************************!*\
-  !*** ./src/app/overview/overview.component.scss ***!
-  \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/overview/overview.component.ts":
-/*!************************************************!*\
-  !*** ./src/app/overview/overview.component.ts ***!
-  \************************************************/
-/*! exports provided: OverviewComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OverviewComponent", function() { return OverviewComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
-/* harmony import */ var src_app_service_log_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/service/log.service */ "./src/app/service/log.service.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var OverviewComponent = /** @class */ (function () {
-    function OverviewComponent(logService) {
-        this.logService = logService;
-        this.httpSubscription = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subscription"]();
-    }
-    OverviewComponent.prototype.ngOnInit = function () {
-        this.GetCountTotal();
-        this.GetLogOverview();
-    };
-    OverviewComponent.prototype.ngOnDestroy = function () {
-        this.httpSubscription.unsubscribe();
-    };
-    OverviewComponent.prototype.GetCountTotal = function () {
-        var _this = this;
-        this.httpSubscription.add(this.logService.GetCountTotal()
-            .subscribe(function (result) { return _this.countInfo = result[0]; }));
-    };
-    OverviewComponent.prototype.GetLogOverview = function () {
-        var _this = this;
-        this.httpSubscription.add(this.logService.GetLogOverview()
-            .subscribe(function (result) { return _this.logOverview = result; }));
-    };
-    OverviewComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-overview',
-            template: __webpack_require__(/*! ./overview.component.html */ "./src/app/overview/overview.component.html"),
-            styles: [__webpack_require__(/*! ./overview.component.scss */ "./src/app/overview/overview.component.scss")],
-            providers: [src_app_service_log_service__WEBPACK_IMPORTED_MODULE_2__["LogService"]]
-        }),
-        __metadata("design:paramtypes", [src_app_service_log_service__WEBPACK_IMPORTED_MODULE_2__["LogService"]])
-    ], OverviewComponent);
-    return OverviewComponent;
-}());
-
-
-
-/***/ }),
-
 /***/ "./src/app/role-details/role-details.component.html":
 /*!**********************************************************!*\
   !*** ./src/app/role-details/role-details.component.html ***!
@@ -1015,7 +1044,7 @@ var OverviewComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h2>ROLES DETAILS</h2>\n<hr />\n<div class=\"table table-responsive\">\n  <table class=\"table table-bordered\">\n    <tbody class=\"table-striped\">\n      <tr>\n        <th>RoleName</th>\n        <td>{{ roleDetails?.RoleName }}</td>\n      </tr>\n      <tr>\n        <th>Permissions</th>\n        <td>{{ roleDetails?.Permissions }}</td>\n      </tr>\n      <tr>\n        <th>CreateDate</th>\n        <td>{{ roleDetails?.CreateDate | date:'dd/MM/yyyy hh:mm' }}</td>\n      </tr>\n      <tr>\n        <th>ModifyDate</th>\n        <td>{{ roleDetails?.ModifyDate | date:'dd/MM/yyyy hh:mm' }}</td>\n      </tr>\n    </tbody>\n  </table>\n  <div *ngIf=\"roleDetails?.FullName\" class=\" table-responsive table-striped\">\n    <table class=\"table table-bordered col-md-12\">\n      <tbody>\n        <tr>\n          <th>FullName</th>\n          <th>UserName</th>\n        </tr>\n        <tr *ngFor=\"let item of userRoles\">\n          <td>{{ item.FullName }}</td>\n          <td>{{ item.UserName }}</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n  <br>\n  <div class=\"bnt-add\">\n    <a routerLink='/role-main/' class=\"btn btn-danger\"><i class=\"zmdi zmdi-long-arrow-left\"></i>Back</a>\n    <a href=\"#\" data-target=\"#EditRoleModal\" data-toggle=\"modal\" class=\"btn btn-success\" (click)=\"InitialPermissionValue();\"><i\n        class=\"zmdi zmdi-long-arrow-right\"></i>Edit</a>\n  </div>\n</div>\n<!-- Modal -->\n<div class=\"modal fade\" id=\"EditRoleModal\" tabindex=\"-1\" role=\"dialog\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\" style=\"border-radius:5px 5px 0px 0px;background-color:#5cb85c;color:white\">\n        <h5 class=\"modal-title\">Are you sure you want to edit this role?</h5>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\">\n          <span aria-hidden=\"true\">&times;</span>\n          <span class=\"sr-only\">Close</span>\n        </button>\n      </div>\n      <div class=\"modal-body table table-striped\">\n        <form #formEditRole=\"ngForm\">\n          <div class=\"form-horizontal\">\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">RoleName</span>\n                <div class=\"col-md-9\">\n                  <input name=\"RoleName\" ngModel=\"{{roleDetails?.RoleName}}\" class=\"form-control\" type=\"text\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Permissions</span>\n                <div class=\"col-md-9\" id=\"checkboxes\">\n                  <input type=\"checkbox\" name=\"1\" [checked]=\"viewPermission == true\"> View\n                  <input type=\"checkbox\" name=\"2\" [checked]=\"createPermission == true\"> Create\n                  <input type=\"checkbox\" name=\"4\" [checked]=\"modifyPermission == true\"> Modify\n                </div>\n              </div>\n            </div>\n          </div>\n          <div class=\"modal-footer text-center\">\n            <div class=\"form-actions no-color text-center\">\n              <input data-dismiss=\"modal\" class=\"btn btn-success\" type=\"submit\" value=\"Save\" (click)=\"onSubmit(formEditRole,roleDetails?.RoleId)\" />\n              <button class=\"btn\" data-dismiss=\"modal\">Cancel</button>\n            </div>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"container-fluid m-details\">\n  <i class=\"fas fa-chevron-circle-left float-right\" title=\"Back to Role management\" routerLink=\"/role-main\"></i>\n    <h4 class=\"m-title\"><span id=\"status\">Role: </span> {{ roleDetails?.RoleName }} \n      <i class=\"far fa-edit\" title=\"Edit this Role\" data-target=\"#EditRoleModal\" data-toggle=\"modal\" (click)=\"InitalDescriptionNgModel()\"></i>\n    </h4>\n      <div class=\"info\">\n      <p><span>Create Date:</span> {{roleDetails?.CreateDate | date: 'dd/MM/yyyy hh:mm'}}</p>\n      <p><span>Modify Date:</span> {{ roleDetails?.ModifyDate | date: 'dd/MM/yyyy hh:mm' }}</p>\n      <p><span>Permission:</span> {{ roleDetails?.Permissions}}</p>\n      <i class=\"far fa-eye\" title=\"View\" [ngStyle]=\"{'color':CheckPermission(roleDetails.Permissions,1)?'#d34930':'rgb(218, 218, 218)'}\"></i> \n      <i class=\"fas fa-plus-square\" title=\"Create\" [ngStyle]=\"{'color':CheckPermission(roleDetails.Permissions,2)?'#d34930':'rgb(218, 218, 218)'}\"></i>\n      <i class=\"fas fa-user-edit\" title=\"Modify\" [ngStyle]=\"{'color':CheckPermission(roleDetails.Permissions,4)?'#d34930':'rgb(218, 218, 218)'}\"></i>\n    </div>\n</div>\n<table class=\"m-shadow my-4\">\n    <thead>\n        <tr>\n          <th>Username</th>\n          <th>FullName</th>\n        </tr>\n    </thead>\n    <tbody>\n      <tr *ngFor=\"let item of userRoles\">\n        <td>{{ item.UserName }}</td>\n        <td>{{ item.FullName }}</td>\n      </tr>\n    </tbody>\n  </table>\n  \n<!-- Modal -->\n<div class=\"modal fade\" id=\"EditRoleModal\" tabindex=\"-1\" role=\"dialog\">\n    <div class=\"modal-dialog\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\" style=\"border-radius:5px 5px 0px 0px;background-color:#474747;color:white\">\n          <h5 class=\"modal-title\">Are you sure you want to edit this role?</h5>\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\">\n            <span aria-hidden=\"true\">&times;</span>\n            <span class=\"sr-only\">Close</span>\n          </button>\n        </div>\n        <div class=\"modal-body table table-striped\">\n          <form #formEditRole=\"ngForm\">\n            <div class=\"form-horizontal\">\n              <div class=\"form-group\">\n                <div class=\"row\">\n                  <span class=\"control-label col-md-3 my-1\">Permissions</span>\n                  <div class=\"col-md-9\" id=\"checkboxes\">\n                    <input type=\"checkbox\" name='1' [checked]=\"CheckPermission(roleDetails.Permissions,1)\"> View\n                    <input type=\"checkbox\" name='2' [checked]=\"CheckPermission(roleDetails.Permissions,2)\"> Create\n                    <input type=\"checkbox\" name='4' [checked]=\"CheckPermission(roleDetails.Permissions,4)\"> Modify\n                  </div>\n                </div>\n              </div>\n            </div>\n            <div class=\"modal-footer text-center\">\n              <div class=\"form-actions no-color text-center\">\n                <input class=\"btn btn-outline-dark\" type=\"submit\" value=\"Save\" (click)=\"onSubmit(formEditRole,roleDetails?.RoleId)\" />\n                <button class=\"btn btn-outline-dark\" data-dismiss=\"modal\">Cancel</button>\n              </div>\n            </div>\n          </form>\n        </div>\n      </div>\n    </div>\n  </div>"
 
 /***/ }),
 
@@ -1071,9 +1100,24 @@ var RoleDetailsComponent = /** @class */ (function () {
         var _this = this;
         this.roleService.GetRoleDetails(id).subscribe(function (x) {
             _this.roleDetails = x[0];
-            _this.tempPermissionValue = x[0].Permissions;
             _this.userRoles = x;
         });
+    };
+    RoleDetailsComponent.prototype.CheckPermission = function (p, a) {
+        var permissions = [];
+        var count = p;
+        if (count % 2 != 0) {
+            //exists 1 (read)
+            permissions.push(Math.pow(2, 0));
+            count = count - Math.pow(2, 0);
+        }
+        for (var i = 2; i > 0; i--) {
+            if (count >= Math.pow(2, i)) {
+                count = count - Math.pow(2, i);
+                permissions.push(Math.pow(2, i));
+            }
+        }
+        return permissions.indexOf(a) > -1;
     };
     RoleDetailsComponent.prototype.onSubmit = function (formEditRole, rid) {
         this.newRole = formEditRole.value;
@@ -1089,25 +1133,12 @@ var RoleDetailsComponent = /** @class */ (function () {
         return permission;
     };
     RoleDetailsComponent.prototype.UpdateRoles = function () {
+        var _this = this;
         this.roleService.UpdateRole(this.newRole).subscribe(function (success) {
-            alert("You updates roles successful!");
-            window.location.reload();
-        }, function (error) { return alert(error); });
-    };
-    RoleDetailsComponent.prototype.InitialPermissionValue = function () {
-        this.permissionValue = this.tempPermissionValue;
-        this.CheckedByPermission();
-    };
-    RoleDetailsComponent.prototype.CheckedByPermission = function () {
-        if (this.permissionValue === 1 || this.permissionValue === 3 || this.permissionValue === 5 || this.permissionValue === 7) {
-            this.viewPermission = true;
-        }
-        if (this.permissionValue === 2 || this.permissionValue === 3 || this.permissionValue === 6 || this.permissionValue === 7) {
-            this.createPermission = true;
-        }
-        if (this.permissionValue === 4 || this.permissionValue === 5 || this.permissionValue === 6 || this.permissionValue === 7) {
-            this.modifyPermission = true;
-        }
+            _this.GetRoledata(_this.rid);
+            console.log(_this.newRole);
+            $('#EditRoleModal').modal('hide');
+        });
     };
     RoleDetailsComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -1124,17 +1155,6 @@ var RoleDetailsComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/role/role.component.css":
-/*!*****************************************!*\
-  !*** ./src/app/role/role.component.css ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "#search{\r\n  width: calc(100% - 100px);\r\n}\r\n"
-
-/***/ }),
-
 /***/ "./src/app/role/role.component.html":
 /*!******************************************!*\
   !*** ./src/app/role/role.component.html ***!
@@ -1142,7 +1162,18 @@ module.exports = "#search{\r\n  width: calc(100% - 100px);\r\n}\r\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h2 class=\"display-4 d-none d-sm-block\">\n  Role Management\n</h2>\n<button class=\"btn btn-outline-success\" data-target=\"#AddRoleModal\" data-toggle=\"modal\">\n    <i class=\"fas fa-user\"></i> Create New\n  </button>\n<div class=\"row my-4\">\n  <div class=\"col-lg-12 col-md-8\">\n    <div class=\"form-group\">\n      <input id=\"search\" name=\"name\" type=\"text\" class=\"form-control d-inline\" placeholder=\"Search roles by name\">\n      <button class=\"btn btn-outline-dark float-right\"><i class=\"fas fa-search\"></i>Search</button>\n    </div>\n    <div class=\"table-responsive my-5\">\n      <table class=\"table table-bordered\">\n        <thead class=\"thead-light\">\n          <tr>\n            <th>RoleName</th>\n            <th>Permissions</th>\n            <th>CreateDate</th>\n            <th>ModifyDate</th>\n            <th>Action</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr *ngFor=\"let item of roles\">\n            <td>{{item.RoleName}}</td>\n            <td>{{item.Permissions}}</td>\n            <td>{{item.CreateDate | date:'dd/MM/yyyy hh:mm'}}</td>\n            <td>{{item.ModifyDate | date:'dd/MM/yyyy hh:mm'}}</td>\n            <td>\n              <input type=\"button\" value=\"Delete\" class=\"btn btn-outline-danger mr-1\" (click)=\"getRolePicked(item.RoleName,item.RoleId)\"\n                data-target=\"#roleDeleteModal\" data-toggle=\"modal\">\n              <input type=\"button\" value=\"Details\" class=\"btn btn-outline-primary\" routerLink=\"/role-details/{{ item.RoleId }}\">\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n  </div>\n</div>\n<!-- Modal Add Role-->\n<div class=\"modal fade\" id=\"AddRoleModal\" tabindex=\"-1\" role=\"dialog\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\" style=\"border-radius:5px 5px 0px 0px;background-color:#5cb85c;color:white\">\n        <h5 class=\"modal-title ml-auto\">Please enter full information of the role.</h5>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\">\n          <span aria-hidden=\"true\">&times;</span>\n          <span class=\"sr-only\">Close</span>\n        </button>\n      </div>\n      <div class=\"modal-body table table-striped\">\n        <form #formAddRole=\"ngForm\">\n          <div class=\"form-horizontal\">\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">RoleName</span>\n                <div class=\"col-md-9\">\n                  <input ngModel name=\"roleName\" class=\"form-control\" type=\"text\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Permissions</span>\n                <div class=\"col-md-9\" id=\"checkboxes\">\n                  <input type=\"checkbox\" name=\"1\"> View\n                  <input type=\"checkbox\" name=\"2\"> Create\n                  <input type=\"checkbox\" name=\"4\"> Modify\n                </div>\n              </div>\n            </div>\n            <div class=\"modal-footer text-center\">\n              <div class=\"form-actions no-color text-center\">\n                <input data-dismiss=\"modal\" class=\"btn btn-success\" type=\"submit\" value=\"Save\" (click)=\"onSubmit(formAddRole)\" />\n                <button class=\"btn\" data-dismiss=\"modal\">Cancel</button>\n              </div>\n            </div>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n</div>\n<!-- Modal Delete Role -->\n<div class=\"modal fade\" id=\"roleDeleteModal\" tabindex=\"-1\" role=\"dialog\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\" id=\"myModalLabel\">{{rolenamePicked}}</h4>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n          <span aria-hidden=\"true\">×</span>\n          <span class=\"sr-only\">Close</span>\n        </button>\n      </div>\n      <div class=\"modal-body\">\n        <p>Do you really wanna delete this role ?</p>\n      </div>\n      <div class=\"modal-footer\">\n        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">No</button>\n        <button type=\"button\" class=\"btn btn-primary-outline\" (click)=\"DeleteRole(roleIdPicked)\" data-dismiss=\"modal\">Yes</button>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"container-fluid\">\n  <h4 class=\"m-title\">Role Management</h4>\n  <div class=\"row\">\n    <div [attr.id]=\"item.RoleId\" class=\"role col-lg-3 col-md-6 col-sm-12 \" *ngFor=\"let item of roles\">\n      <div class=\"m-shadow w-100\">\n        <div class=\"head\">\n          <a routerLink=\"/role-details/{{ item.RoleId }}\" id=\"title\">{{item.RoleName}}</a>\n          <i class=\"far fa-eye\" title=\"View\" [ngStyle]=\"{'color':CheckPermission(item.Permissions,1)?'#d34930':'rgb(218, 218, 218)'}\"></i>\n          <i class=\"fas fa-plus-square\" title=\"Create\" [ngStyle]=\"{'color':CheckPermission(item.Permissions,2)?'#d34930':'rgb(218, 218, 218)'}\"></i>\n          <i class=\"fas fa-user-edit\" title=\"Modify\" [ngStyle]=\"{'color':CheckPermission(item.Permissions,4)?'#d34930':'rgb(218, 218, 218)'}\"></i>\n        </div>\n        <div class=\"date\">\n          <p><span class=\"font-weight-bold\">Created at: </span>{{ item.CreateDate | date: 'dd/MM/yyyy hh:mm' }}</p>\n          <p><span class=\"font-weight-bold\">Modified at: </span>{{ item.ModifyDate | date: 'dd/MM/yyyy hh:mm' }}</p>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/role/role.component.scss":
+/*!******************************************!*\
+  !*** ./src/app/role/role.component.scss ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".example-full-width {\n  width: 100%; }\n\n#search-form {\n  width: calc(100% - 60px);\n  display: inline-block; }\n\n#search-button {\n  float: right;\n  width: 60px; }\n\n.container-fluid h4 {\n  padding-top: 15px;\n  padding-bottom: 15px;\n  font-weight: 300;\n  border-bottom: 1px solid #eee; }\n\n.db-shadow {\n  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);\n  background: #fff; }\n\n.role .date {\n  font-size: 0.8em;\n  width: 100%;\n  padding-bottom: 15px;\n  padding-top: 10px; }\n\n.role .date p {\n  margin-left: 10px; }\n\n.role .head #title {\n  display: flex;\n  padding: 15px;\n  font-size: 1.3em;\n  text-decoration: none; }\n\n.role .head i {\n  margin-left: 10px;\n  color: #dadada; }\n"
 
 /***/ }),
 
@@ -1173,10 +1204,6 @@ var RoleComponent = /** @class */ (function () {
     function RoleComponent(_roleService) {
         this._roleService = _roleService;
     }
-    RoleComponent.prototype.getRolePicked = function (rn, rid) {
-        this.rolenamePicked = rn;
-        this.roleIdPicked = rid;
-    };
     RoleComponent.prototype.ngOnInit = function () {
         this.GetAllRoles();
     };
@@ -1184,36 +1211,34 @@ var RoleComponent = /** @class */ (function () {
         var _this = this;
         this._roleService.GetAllRoles().subscribe(function (data) { return _this.roles = data; });
     };
-    RoleComponent.prototype.onSubmit = function (formAddRole) {
-        this.newRole = formAddRole.value;
-        this.AddRoles();
-    };
-    RoleComponent.prototype.AddRoles = function () {
-        this.newRole.Permissions = this.GetPermission();
-        this._roleService.AddRole(this.newRole).subscribe(function (success) {
-            alert("You add roles successful!");
-            window.location.reload();
-        }, function (error) { return alert(error); });
-    };
-    RoleComponent.prototype.DeleteRole = function (id) {
-        this._roleService.DeleteRole(id).subscribe(function (success) {
-            $("#" + id).hide();
-            alert("You delete roles successful!");
-            window.location.reload();
-        }, function (error) { return alert(error); });
-    };
-    RoleComponent.prototype.GetPermission = function () {
-        var permission = 0;
-        $('#checkboxes input:checked').each(function () {
-            permission += parseInt($(this).attr('name'));
-        });
-        return permission;
+    /**
+     *
+     * @param p the permissions number of the role
+     * @param a the permission you want to check if exists
+     */
+    RoleComponent.prototype.CheckPermission = function (p, a) {
+        var permissions = [];
+        var count = p;
+        if (count % 2 != 0) {
+            //exists 1 (read)
+            permissions.push(Math.pow(2, 0));
+            count = count - Math.pow(2, 0);
+        }
+        for (var i = 2; i > 0; i--) {
+            if (count >= Math.pow(2, i)) {
+                count = count - Math.pow(2, i);
+                permissions.push(Math.pow(2, i));
+            }
+        }
+        console.log(count);
+        console.log(a);
+        return permissions.indexOf(a) > -1;
     };
     RoleComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-log',
             template: __webpack_require__(/*! ./role.component.html */ "./src/app/role/role.component.html"),
-            styles: [__webpack_require__(/*! ./role.component.css */ "./src/app/role/role.component.css")]
+            styles: [__webpack_require__(/*! ./role.component.scss */ "./src/app/role/role.component.scss")]
         }),
         __metadata("design:paramtypes", [src_app_service_role_service__WEBPACK_IMPORTED_MODULE_0__["RoleService"]])
     ], RoleComponent);
@@ -1453,9 +1478,9 @@ var LogService = /** @class */ (function () {
         this.http = http;
         this.url = "http://localhost:19949/api/Logs";
     }
-    LogService.prototype.GetAllLogs = function () {
+    LogService.prototype.GetAllLogForSearch = function () {
         var reqHeader = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({ 'Content-Type': 'application/x-www-urlencoded', 'No-Auth': 'False' });
-        return this.http.get(this.url + '/GetAllLogs');
+        return this.http.get(this.url + '/GetAllLogForSearch');
     };
     LogService.prototype.GetLogByID = function (id) {
         var reqHeader = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({ 'Content-Type': 'application/x-www-urlencoded', 'No-Auth': 'False' });
@@ -1467,16 +1492,16 @@ var LogService = /** @class */ (function () {
     };
     LogService.prototype.CreateLog = function (userID, log) {
         var reqHeader = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({ 'Content-Type': 'application/x-www-urlencoded', 'No-Auth': 'False' });
-        return this.http.post(this.url + '/add/' + userID, log);
+        return this.http.post(this.url + '/' + userID, log);
     };
     LogService.prototype.UpdateLog = function (logID, userID, log) {
         log.LogID = logID;
         var reqHeader = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({ 'Content-Type': 'application/x-www-urlencoded', 'No-Auth': 'False' });
-        return this.http.put(this.url + '/edit/' + userID, log);
+        return this.http.put(this.url + '/' + userID, log);
     };
     LogService.prototype.DeleteLog = function (logID) {
         var reqHeader = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({ 'Content-Type': 'application/x-www-urlencoded', 'No-Auth': 'False' });
-        return this.http.delete(this.url + '/delete/' + logID);
+        return this.http.delete(this.url + '/' + logID);
     };
     LogService.prototype.GetCountTotal = function () {
         var reqHeader = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({ 'Content-Type': 'application/x-www-urlencoded', 'No-Auth': 'False' });
@@ -1485,6 +1510,10 @@ var LogService = /** @class */ (function () {
     LogService.prototype.GetLogOverview = function () {
         var reqHeader = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({ 'Content-Type': 'application/x-www-urlencoded', 'No-Auth': 'False' });
         return this.http.get(this.url + '/GetLogOverview', { headers: reqHeader });
+    };
+    LogService.prototype.GetLogForPagination = function (itemSkip, itemTake) {
+        var reqHeader = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({ 'Content-Type': 'application/x-www-urlencoded', 'No-Auth': 'False' });
+        return this.http.get(this.url + '/GetAllLogForPagination/' + itemSkip + '/' + itemTake);
     };
     LogService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
@@ -1664,6 +1693,102 @@ var UserLogService = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/service/web-api.service.ts":
+/*!********************************************!*\
+  !*** ./src/app/service/web-api.service.ts ***!
+  \********************************************/
+/*! exports provided: WebAPIService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebAPIService", function() { return WebAPIService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common_Http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/Http */ "./node_modules/@angular/common/fesm5/http.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+var WebAPIService = /** @class */ (function () {
+    function WebAPIService(_httpClient, Url) {
+        this._httpClient = _httpClient;
+        this.Url = Url;
+        this.Url = Url;
+    }
+    /**
+     * Get all data
+     * @param Controller The controller string you want to get data
+     * @return A list of objects in the webAPI
+     */
+    WebAPIService.prototype.FetchAll = function (Controller) {
+        return this._httpClient.get(this.Url + Controller + "/");
+    };
+    /**
+     * Fetch all data but you can skips item and takes how many item you want
+     * @param skips How many items you want to skips?
+     * @param takes How many items you want to takes?
+     */
+    WebAPIService.prototype.GetAllWithSkips = function (Controller, skips, takes) {
+        return this._httpClient.get(this.Url + Controller + "/" + skips + "/" + takes + "/");
+    };
+    /**
+     * Get an object
+     * @param Controller The controller string you want to get data
+     * @param id The ID of an objects you want to get details
+     * @return The details of object(Id)
+     */
+    WebAPIService.prototype.GetDetails = function (Controller, id) {
+        return this._httpClient.get(this.Url + Controller + "/" + id);
+    };
+    /**
+     * Add an object to database
+     * @param Controller The controller string you want to get data
+     * @param object the object you want to add to database
+     */
+    WebAPIService.prototype.Add = function (Controller, object) {
+        return this._httpClient.post(this.Url + Controller + "/", object);
+    };
+    /**
+     * Remove an object out of database
+     * @param Controller The controller string you want to get data
+     * @param id The ID of an objects you want to delete
+     */
+    WebAPIService.prototype.Delete = function (Controller, id) {
+        return this._httpClient.delete(this.Url + Controller + "/" + id);
+    };
+    /**
+     * Update object in database
+     * *Warning: The Id of new object must be same with old object
+     * @param Controller The controller string you want to get data
+     * @param object the object you want to update to database
+     */
+    WebAPIService.prototype.Update = function (Controller, object) {
+        return this._httpClient.put(this.Url + Controller + "/", object);
+    };
+    WebAPIService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __param(1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])('Url')), __param(1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"])()),
+        __metadata("design:paramtypes", [_angular_common_Http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"], String])
+    ], WebAPIService);
+    return WebAPIService;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/share-layout/share-layout.component.html":
 /*!**********************************************************!*\
   !*** ./src/app/share-layout/share-layout.component.html ***!
@@ -1671,7 +1796,7 @@ var UserLogService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--NAVBAR-->\n<nav class=\"navbar fixed-top navbar-expand-md navbar-dark bg-main mb-3\">\n    <div class=\"flex-row d-flex\">\n        <button type=\"button\" class=\"navbar-toggler mr-2 \" data-toggle=\"offcanvas\" title=\"Toggle responsive left sidebar\">\n            <span class=\"navbar-toggler-icon\"></span>\n        </button>\n            <a class=\"navbar-brand\" *ngIf=\"isLoggedIn()\" routerLink='/home'><i class=\"fas fa-address-book\"></i>Log Management</a>\n            <a class=\"navbar-brand\" *ngIf=\"!isLoggedIn()\" routerLink='/login'><i class=\"fas fa-address-book\"></i>Log Management</a>\n    </div>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapsingNavbar\">\n        <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"navbar-collapse collapse\" id=\"collapsingNavbar\">\n        <ul class=\"navbar-nav ml-auto\">\n            <li *ngIf=\"isLoggedIn()\" class=\"nav-item\">\n                <a class=\"nav-link\" data-toggle=\"collapse\">Hi, {{ username }}!</a>\n            </li>\n            <li *ngIf=\"isLoggedIn()\" class=\"nav-item\">\n                <a class=\"nav-link\" href=\"\" data-target=\"#myModal\" data-toggle=\"modal\">\n                    <i class=\"fas fa-sign-out-alt\"></i>Logout\n                </a>\n            </li>\n            <li *ngIf=\"!isLoggedIn()\" class=\"nav-item\">\n                    <a class=\"nav-link\" routerLink=\"/login\">\n                        <i class=\"fas fa-sign-in-alt\"></i> Login\n                    </a>\n                </li>\n        </ul>\n    </div>\n</nav>\n\n<div class=\"container-fluid\" id=\"main\">\n    <div class=\"row row-offcanvas row-offcanvas-left\">\n        <!--SIDEBAR-->\n        <div *ngIf=\"isLoggedIn()\" class=\"col-md-3 col-lg-2 sidebar-offcanvas bg-light pl-0\" id=\"sidebar\" role=\"navigation\">\n            <ul class=\"nav flex-column sticky-top pl-0 pt-5 mt-3\">\n                <li class=\"nav-item\"><a class=\"nav-link bg-info text-light\" href=\"#\"><i class=\"far fa-eye\"></i>Overview</a></li>\n                <li class=\"nav-item\"><a class=\"nav-link\" href=\"#\"><i class=\"fas fa-pen-fancy\"></i>My Logs</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"#submenu1\" data-toggle=\"collapse\" data-target=\"#submenu1\">\n                        <i class=\"fas fa-desktop\"></i>Admin▾\n                    </a>\n                    <ul class=\"list-unstyled flex-column pl-3 collapse\" id=\"submenu1\" aria-expanded=\"false\">\n                        <li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"/user-main\" routerLinkActive=\"active\"><i class=\"fas fa-users\"></i>Users</a></li>\n                        <li class=\"nav-item\"><a class=\"nav-link\"routerLink=\"/role-main\" routerLinkActive=\"active\"><i class=\"fas fa-pencil-ruler\"></i>Roles</a></li>\n                        <li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"/log-main\" routerLinkActive=\"active\"><i class=\"fas fa-clipboard-list\"></i>Logs</a></li>\n                    </ul>\n                </li>\n            </ul>\n        </div>\n        <!--/col-->\n\n        <div class=\"col main pt-5 mt-3\">\n            <ng-content></ng-content>\n        </div>\n            <!--/row-->\n    </div>\n\n</div>\n\n\n<!-- Modal -->\n<div class=\"modal fade\" id=\"myModal\" tabindex=\"-1\" role=\"dialog\">\n    <div class=\"modal-dialog\" role=\"document\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <h4 class=\"modal-title\" id=\"myModalLabel\">Logout</h4>\n                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                    <span aria-hidden=\"true\">×</span>\n                    <span class=\"sr-only\">Close</span>\n                </button>\n            </div>\n            <div class=\"modal-body\">\n                <p>Do you really wanna logout ?</p>\n            </div>\n            <div class=\"modal-footer\">\n                <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n                <button type=\"button\" (click)=\"logout()\" class=\"btn btn-primary-outline\" data-dismiss=\"modal\">OK</button>\n            </div>\n        </div>\n    </div>\n</div>"
+module.exports = "<!--NAVBAR-->\n<nav class=\"navbar fixed-top navbar-expand-md navbar-dark bg-dark mb-3 \">\n        <div class=\"flex-row d-flex\">\n            <button type=\"button\" class=\"navbar-toggler mr-2 \" data-toggle=\"offcanvas\" title=\"Toggle responsive left sidebar\">\n                <span class=\"navbar-toggler-icon\"></span>\n            </button>\n                <a class=\"navbar-brand\" *ngIf=\"isLoggedIn()\" routerLink='/home'><i class=\"fas fa-address-book\"></i> Log Management</a>\n                <a class=\"navbar-brand\" *ngIf=\"!isLoggedIn()\" routerLink='/login'><i class=\"fas fa-address-book\"></i> Log Management</a>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapsingNavbar\">\n            <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"navbar-collapse collapse\" id=\"collapsingNavbar\">\n            <ul class=\"navbar-nav ml-auto\">\n                <li *ngIf=\"isLoggedIn()\" class=\"nav-item\">\n                    <a class=\"nav-link\" data-toggle=\"collapse\">Hi, {{ username }}!</a>\n                </li>\n                <li *ngIf=\"isLoggedIn()\" class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"\" data-target=\"#myModal\" data-toggle=\"modal\">\n                        <i class=\"fas fa-sign-out-alt\"></i>Logout\n                    </a>\n                </li>\n                <li *ngIf=\"!isLoggedIn()\" class=\"nav-item\">\n                        <a class=\"nav-link\" routerLink=\"/login\">\n                            <i class=\"fas fa-sign-in-alt\"></i> Login\n                        </a>\n                    </li>\n            </ul>\n        </div>\n    </nav>\n    \n    <div class=\"container-fluid\" id=\"main\">\n        <div class=\"row row-offcanvas row-offcanvas-left\">\n            <!--SIDEBAR-->\n            <div *ngIf=\"isLoggedIn()\" class=\"col-md-3 col-lg-2 sidebar-offcanvas pl-0 sidebar-shadow\" id=\"sidebar\" role=\"navigation\">\n                <ul class=\"nav flex-column sticky-top pl-0 pt-5 mt-3\">\n                    <li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"/home\"><i class=\"far fa-eye\"></i> Dashboard Page</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"/log-main\"><i class=\"fas fa-pen-fancy\"></i> Logs Management</a></li>\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" href=\"#submenu1\" data-toggle=\"collapse\" data-target=\"#submenu1\">\n                            <i class=\"fas fa-desktop\"></i> Administrator ▾\n                        </a>\n                        <ul class=\"list-unstyled flex-column pl-3 collapse\" id=\"submenu1\" aria-expanded=\"false\">\n                           <li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"/user-main\"><i class=\"fas fa-users\"></i> Users</a></li>\n                           <li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"/role-main\"><i class=\"fas fa-pencil-ruler\"></i> Roles</a></li>\n                        </ul>\n                    </li>\n                </ul>\n            </div>\n            <!--/col-->\n    \n            <div class=\"col main pt-5 mt-3\">\n                <ng-content></ng-content>\n            </div>\n                <!--/row-->\n        </div>\n    \n    </div>\n    \n    \n    <!-- Modal -->\n    <div class=\"modal fade\" id=\"myModal\" tabindex=\"-1\" role=\"dialog\">\n        <div class=\"modal-dialog\" role=\"document\">\n            <div class=\"modal-content\">\n                <div class=\"modal-header\">\n                    <h4 class=\"modal-title\" id=\"myModalLabel\">Logout</h4>\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                        <span aria-hidden=\"true\">×</span>\n                        <span class=\"sr-only\">Close</span>\n                    </button>\n                </div>\n                <div class=\"modal-body\">\n                    <p>Do you really wanna logout ?</p>\n                </div>\n                <div class=\"modal-footer\">\n                    <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n                    <button type=\"button\" (click)=\"logout()\" class=\"btn btn-primary-outline\" data-dismiss=\"modal\">OK</button>\n                </div>\n            </div>\n        </div>\n    </div>"
 
 /***/ }),
 
@@ -1682,7 +1807,7 @@ module.exports = "<!--NAVBAR-->\n<nav class=\"navbar fixed-top navbar-expand-md 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "@media screen and (max-width: 992px) {\n  .row-offcanvas {\n    position: relative;\n    transition: all 0.25s ease-out; }\n  .row-offcanvas-left\n.sidebar-offcanvas {\n    left: -33%; }\n  .row-offcanvas-left.active {\n    left: 33%;\n    margin-left: -6px; }\n  .sidebar-offcanvas {\n    position: absolute;\n    top: 0;\n    width: 33%;\n    height: 100%; } }\n\n/*\r\n* Off Canvas wider at sm breakpoint\r\n* --------------------------------------------------\r\n*/\n\n@media screen and (max-width: 34em) {\n  .row-offcanvas-left\n.sidebar-offcanvas {\n    left: -45%; }\n  .row-offcanvas-left.active {\n    left: 45%;\n    margin-left: -6px; }\n  .sidebar-offcanvas {\n    width: 45%; } }\n\n.card {\n  overflow: hidden; }\n\n.bg-main {\n  background: #48A9E6; }\n"
+module.exports = "@import url(\"https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700\");\n@media screen and (max-width: 992px) {\n  .row-offcanvas {\n    position: relative;\n    transition: all 0.25s ease-out; }\n  .row-offcanvas-left\n.sidebar-offcanvas {\n    left: -33%; }\n  .row-offcanvas-left.active {\n    left: 33%;\n    margin-left: -6px; }\n  .sidebar-offcanvas {\n    position: absolute;\n    top: 0;\n    width: 33%;\n    height: 100%; } }\n/*\r\n* Off Canvas wider at sm breakpoint\r\n* --------------------------------------------------\r\n*/\n@media screen and (max-width: 34em) {\n  .row-offcanvas-left\n.sidebar-offcanvas {\n    left: -45%; }\n  .row-offcanvas-left.active {\n    left: 45%;\n    margin-left: -6px; }\n  .sidebar-offcanvas {\n    width: 45%; } }\n.card {\n  overflow: hidden; }\n.sidebar-shadow {\n  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);\n  background: #fff;\n  font-family: 'Raleway', sans-serif; }\n.sidebar-shadow a {\n  color: black;\n  font-size: 1.1em; }\n.sidebar-shadow a:hover {\n  color: #a58888; }\n.sidebar-shadow li {\n  padding-top: 15px; }\n#sidebar {\n  padding-bottom: 100%; }\n"
 
 /***/ }),
 
@@ -1754,7 +1879,7 @@ var ShareLayoutComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h2>DETAILS USER</h2>\n<hr />\n<div class=\"table table-responsive table-striped \">\n  <table class=\"table table-bordered\">\n    <tbody>\n      <tr>\n        <th>UserName</th>\n        <td>{{ userDetails?.UserName }}</td>\n      </tr>\n      <tr>\n        <th>FullName</th>\n        <td>{{ userDetails?.FullName }}</td>\n      </tr>\n      <tr>\n        <th>Birthdate</th>\n        <td>{{ userDetails?.Birthdate | date:'dd/MM/yyyy'}}</td>\n      </tr>\n      <tr>\n        <th>Gender</th>\n        <td>{{ userDetails?.Gender?'Male':'Female' }}</td>\n      </tr>\n      <tr>\n        <th>Phone</th>\n        <td>{{ userDetails?.Phone }}</td>\n      </tr>\n      <tr>\n        <th>Address</th>\n        <td>{{ userDetails?.Address}}</td>\n      </tr>\n      <tr>\n        <th>CreateDate</th>\n        <td>{{ userDetails?.CreateDate | date:'dd/MM/yyyy hh:mm' }}</td>\n      </tr>\n      <tr>\n        <th>ModifyDate</th>\n        <td>{{ userDetails?.ModifyDate | date:'dd/MM/yyyy hh:mm'}}</td>\n      </tr>\n      <tr>\n        <th>RoleName</th>\n        <td>{{ userDetails?.RoleName }}</td>\n      </tr>\n    </tbody>\n  </table>\n  <div *ngIf=\"userLog?.length > 0\" class=\" table-responsive table-striped\">\n    <table class=\"table table-bordered col-md-12\">\n      <thead>\n        <tr>\n          <th>LogName</th>\n          <th>LogType</th>\n          <th>CreateDateLog</th>\n          <th>ModifyDateLog</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr *ngFor=\"let log of userLog\">\n          <td>{{ log.LogName }}</td>\n          <td>{{ log.LogType }}</td>\n          <td>{{ log.CreateDateLog | date:'dd/MM/yyyy hh:mm'}}</td>\n          <td>{{ log.ModifyDateLog | date:'dd/MM/yyyy hh:mm'}}</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n  <br>\n  <div class=\"bnt-add\">\n    <a routerLink='/user-main/' class=\"btn btn-danger \"><i class=\"fa fa-reply\"></i> Back</a>\n    <a href='' data-target=\"#EditUserModal\" data-toggle=\"modal\" class=\"btn btn-success \"><i class=\"fa fa-edit\"></i>\n      Edit</a>\n  </div>\n</div>\n<!-- Modal -->\n<div class=\"modal fade\" id=\"EditUserModal\" tabindex=\"-1\" role=\"dialog\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\" style=\"border-radius:5px 5px 0px 0px;background-color:#5cb85c;color:white\">\n        <h5 class=\"modal-title\">Are you sure you want to edit profile?</h5>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\">\n          <span aria-hidden=\"true\">&times;</span>\n          <span class=\"sr-only\">Close</span>\n        </button>\n      </div>\n      <div class=\"modal-body table table-striped\">\n        <form #formEdit=\"ngForm\">\n          <div class=\"form-horizontal\">\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">UserName</span>\n                <div class=\"col-md-9\">\n                  <input name=\"UserName\" ngModel=\"{{userDetails?.UserName}}\" class=\"form-control\" type=\"text\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">FullName</span>\n                <div class=\"col-md-9\">\n                  <input name=\"FullName\" ngModel=\"{{userDetails?.FullName}}\" class=\"form-control\" type=\"text\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Birthday</span>\n                <div class=\"col-md-9\">\n                  <input name=\"Birthdate\" ngModel=\"{{userDetails?.Birthdate}}\" class=\"form-control\" type=\"datetime-local\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Gender</span>\n                <div class=\"col-md-9\">\n                  <select name=\"Gender\" ngModel=\"{{userDetails?.Gender?'Male':'Female'}}\" class=\"form-control\">\n                    <option>\n                      Male\n                    </option>\n                    <option>\n                      Female\n                    </option>\n                  </select>\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Phone</span>\n                <div class=\"col-md-9\">\n                  <input name=\"Phone\" ngModel=\"{{userDetails?.Phone}}\" class=\"form-control\" type=\"number\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Address</span>\n                <div class=\"col-md-9\">\n                  <input name=\"Address\" ngModel=\"{{userDetails?.Address}}\" class=\"form-control\" type=\"text\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">RoleName</span>\n                <div class=\"col-md-9\">\n                  <select name=\"RoleId\" ngModel=\"{{userDetails?.RoleName}}\" class=\"form-control\">\n                    <option value=\"\" selected disabled hidden>Choose RoleName</option>\n                    <option *ngFor=\"let role of roles\">\n                      {{role.RoleName}}\n                    </option>\n                  </select>\n                </div>\n              </div>\n            </div>\n          </div>\n          <div class=\"modal-footer text-center\">\n            <div class=\"form-actions no-color text-center\">\n              <input data-dismiss=\"modal\" class=\"btn btn-success\" type=\"submit\" value=\"Save\" (click)=\"onSubmit(formEdit,userDetails?.UserId)\" />\n              <button class=\"btn\" data-dismiss=\"modal\">Cancel</button>\n            </div>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"container-fluid m-details\">\n    <i class=\"fas fa-chevron-circle-left float-right\" title=\"Back to user management\" routerLink=\"/user-main\"></i>\n      <h4 class=\"m-title\"><span id=\"status\">User: </span> {{ userDetails.FullName }} \n        <i class=\"far fa-edit\" title=\"Edit this user\" data-target=\"#EditUserModal\" data-toggle=\"modal\" (click)=\"InitalDescriptionNgModel()\"></i>\n      </h4>\n        <div class=\"info\">\n        <p><span>UserName:</span> {{userDetails.UserName}}</p>\n        <p><span>Role:</span> {{ userDetails.RoleName }}</p>\n        <p><span>Birthday:</span> {{userDetails.Birthdate | date: 'dd/MM/yyyy'}}</p>\n        <p><span>Gender:</span> {{ userDetails.Gender?'Male':'Female' }}</p>\n        <p><span>Phone:</span> {{ userDetails.Phone }}</p>\n        <p><span>Address:</span> {{ userDetails.Address}}</p>\n        <p><span>Create Date:</span> {{userDetails.CreateDateUser | date: 'dd/MM/yyyy hh:mm'}}</p>\n        <p><span>Modify Date:</span> {{ userDetails.ModifyDateUser | date: 'dd/MM/yyyy hh:mm' }}</p>\n      </div>\n  </div>\n  <table class=\"m-shadow my-4\">\n      <thead>\n          <tr>\n            <th>LogName</th>\n            <th>LogType</th>\n            <th>CreateDateLog</th>\n            <th>ModifyDateLog</th>\n          </tr>\n      </thead>\n      <tbody>\n        <tr *ngFor=\"let item of userLog\">\n          <td>{{ item.LogName }}</td>\n          <td>{{ item.LogType }}</td>\n          <td>{{ item.CreateDateLog | date: 'dd/MM/yyyy hh:mm' }}</td>\n          <td>{{ item.ModifyDateLog | date: 'dd/MM/yyyy hh:mm' }}</td>\n\n        </tr>\n      </tbody>\n    </table>\n<!-- Modal -->\n<div class=\"modal fade\" id=\"EditUserModal\" tabindex=\"-1\" role=\"dialog\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\" style=\"border-radius:5px 5px 0px 0px;background-color:#474747;color:white\">\n        <h5 class=\"modal-title\">Are you sure you want to edit profile?</h5>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\">\n          <span aria-hidden=\"true\">&times;</span>\n          <span class=\"sr-only\">Close</span>\n        </button>\n      </div>\n      <div class=\"modal-body table table-striped\">\n        <form #formEdit=\"ngForm\">\n          <div class=\"form-horizontal\">\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">UserName</span>\n                <div class=\"col-md-9\">\n                  <input name=\"UserName\" ngModel=\"{{userDetails?.UserName}}\" class=\"form-control\" type=\"text\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">FullName</span>\n                <div class=\"col-md-9\">\n                  <input name=\"FullName\" ngModel=\"{{userDetails?.FullName}}\" class=\"form-control\" type=\"text\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Birthday</span>\n                <div class=\"col-md-9\">\n                  <input name=\"Birthdate\" ngModel=\"{{userDetails?.Birthdate}}\" class=\"form-control\" type=\"datetime-local\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Gender</span>\n                <div class=\"col-md-9\">\n                  <select name=\"Gender\" ngModel=\"{{userDetails?.Gender?'Male':'Female'}}\" class=\"form-control\">\n                    <option>\n                      Male\n                    </option>\n                    <option>\n                      Female\n                    </option>\n                  </select>\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Phone</span>\n                <div class=\"col-md-9\">\n                  <input name=\"Phone\" ngModel=\"{{userDetails?.Phone}}\" class=\"form-control\" type=\"number\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Address</span>\n                <div class=\"col-md-9\">\n                  <input name=\"Address\" ngModel=\"{{userDetails?.Address}}\" class=\"form-control\" type=\"text\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">RoleName</span>\n                <div class=\"col-md-9\">\n                  <select name=\"RoleId\" ngModel=\"{{userDetails.RoleName}}\" class=\"form-control\">\n                    <option value=\"\" selected disabled hidden>Choose RoleName</option>\n                    <option *ngFor=\"let role of roles\">\n                      {{role.RoleName}}\n                    </option>\n                  </select>\n                </div>\n              </div>\n            </div>\n          </div>\n          <div class=\"modal-footer text-center\">\n            <div class=\"form-actions no-color text-center\">\n              <input data-dismiss=\"modal\" class=\"btn btn-outline-dark\" type=\"submit\" value=\"Save\" (click)=\"onSubmit(formEdit,userDetails?.UserId)\" />\n              <button class=\"btn btn-outline-dark\" data-dismiss=\"modal\">Cancel</button>\n            </div>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -1834,13 +1959,11 @@ var UserDetailsComponent = /** @class */ (function () {
         this.newUser.RoleId = this.findIdByNameRole(this.newUser.RoleId);
         this.newUser.Gender = this.newUser.Gender === "Male" ? true : false;
         this.newUser.UserId = uid;
-        this.UpdateUsers();
+        this.UpdateUsers(uid);
     };
-    UserDetailsComponent.prototype.UpdateUsers = function () {
-        this.userService.UpdateUser(this.newUser).subscribe(function (success) {
-            alert("You updates users successful !");
-            window.location.reload();
-        }, function (error) { return alert(error); });
+    UserDetailsComponent.prototype.UpdateUsers = function (uid) {
+        var _this = this;
+        this.userService.UpdateUser(this.newUser).subscribe(function (success) { return _this.GetUserdata(uid); });
     };
     UserDetailsComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -1865,7 +1988,7 @@ var UserDetailsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h2 class=\"display-4 d-none d-sm-block\">\n  User Management\n</h2>\n<button class=\"btn btn-outline-success\" data-target=\"#AddUserModal\" data-toggle=\"modal\">\n  <i class=\"fas fa-user\"></i> Create New\n</button>\n<div class=\"row my-4\">\n  <div class=\"col-lg-12 col-md-8\">\n    <div class=\"form-group\">\n      <input id=\"search\" name=\"name\" type=\"text\" class=\"form-control d-inline\" placeholder=\"Search users by name\">\n      <button class=\"btn btn-outline-dark float-right\"><i class=\"fas fa-search\"></i>Search</button>\n    </div>\n    <div class=\"table-responsive my-5\">\n      <table class=\"table table-bordered\">\n        <thead class=\"thead-light\">\n          <tr>\n            <th>Username</th>\n            <th>Fullname</th>\n            <th>Birthday</th>\n            <th>Gender</th>\n            <th>Phone</th>\n            <th>Address</th>\n            <th>RoleName</th>\n            <th>Action</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr *ngFor=\"let item of users\">\n            <td>{{item.UserName}}</td>\n            <td>{{item.FullName}}</td>\n            <td>{{item.Birthdate | date:'dd/MM/yyyy'}}</td>\n            <td>{{item.Gender?'Male':'Female'}}</td>\n            <td>{{item.Phone}}</td>\n            <td>{{item.Address}}</td>\n            <td>{{item.RoleName}}</td>\n            <td>\n              <input type=\"button\" value=\"Delete\" class=\"btn btn-outline-danger mr-1\" (click)=\"getUserPicked(item.FullName,item.UserId)\"\n                data-target=\"#deleteModal\" data-toggle=\"modal\">\n              <input type=\"button\" value=\"Details\" class=\"btn btn-outline-primary\" routerLink='/user-details/{{ item.UserId }}'>\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n  </div>\n</div>\n<!-- Modal -->\n<div class=\"modal fade\" id=\"AddUserModal\" tabindex=\"-1\" role=\"dialog\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\" style=\"border-radius:5px 5px 0px 0px;background-color:#5cb85c;color:white\">\n        <h5 class=\"modal-title ml-auto\">Please enter full information of the user.</h5>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\">\n          <span aria-hidden=\"true\">&times;</span>\n          <span class=\"sr-only\">Close</span>\n        </button>\n      </div>\n      <div class=\"modal-body table table-striped\">\n        <form #formAdd=\"ngForm\">\n          <div class=\"form-horizontal\">\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">UserName</span>\n                <div class=\"col-md-9\">\n                  <input name=\"UserName\" ngModel class=\"form-control\" type=\"text\" value=\"\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Password</span>\n                <div class=\"col-md-9\">\n                  <input name=\"Password\" ngModel class=\"form-control\" type=\"password\" value=\"\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">RePassword</span>\n                <div class=\"col-md-9\">\n                  <input class=\"form-control\" type=\"password\" value=\"\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">FullName</span>\n                <div class=\"col-md-9\">\n                  <input name=\"FullName\" ngModel class=\"form-control\" type=\"text\" value=\"\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Birthday</span>\n                <div class=\"col-md-9\">\n                  <input name=\"Birthdate\" ngModel class=\"form-control\" type=\"date\" value=\"\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Gender</span>\n                <div class=\"col-md-9\">\n                  <select name=\"Gender\" ngModel class=\"form-control\">\n                    <option value=\"\" selected disabled hidden>Choose Gender</option>\n                    <option>\n                      Male\n                    </option>\n                    <option>\n                      Female\n                    </option>\n                  </select>\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Phone</span>\n                <div class=\"col-md-9\">\n                  <input name=\"Phone\" ngModel class=\"form-control\" type=\"number\" value=\"\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Address</span>\n                <div class=\"col-md-9\">\n                  <input name=\"Address\" ngModel class=\"form-control\" type=\"text\" value=\"\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">RoleName</span>\n                <div class=\"col-md-9\">\n                  <select name=\"RoleId\" ngModel class=\"form-control\">\n                    <option value=\"\" selected disabled hidden>Choose RoleName</option>\n                    <option *ngFor=\"let role of roles\">\n                      {{role.RoleName}}\n                    </option>\n                  </select>\n                </div>\n              </div>\n            </div>\n          </div>\n          <div class=\"modal-footer text-center\">\n            <div class=\"form-actions no-color text-center\">\n              <input data-dismiss=\"modal\" class=\"btn btn-success\" type=\"submit\" value=\"Save\" (click)=\"onSubmit(formAdd)\" />\n              <button class=\"btn\" data-dismiss=\"modal\">Cancel</button>\n            </div>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n</div>\n<!-- Modal Delete -->\n<div class=\"modal fade\" id=\"deleteModal\" tabindex=\"-1\" role=\"dialog\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\" id=\"myModalLabel\">{{usernamePicked}}</h4>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n          <span aria-hidden=\"true\">×</span>\n          <span class=\"sr-only\">Close</span>\n        </button>\n      </div>\n      <div class=\"modal-body\">\n        <p>Do you really wanna delete this user ?</p>\n      </div>\n      <div class=\"modal-footer\">\n        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">No</button>\n        <button type=\"button\" class=\"btn btn-primary-outline\" (click)=\"DeleteUser(userIdPicked)\" data-dismiss=\"modal\">Yes</button>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"container-fluid\">\n  <h4 class=\"m-title\">User Management <i class=\"fas fa-plus-circle add\" title=\"Add new user\" data-target=\"#AddUserModal\" data-toggle=\"modal\"></i></h4>\n  <form (ngSubmit)=\"SearchUser();\">\n    <mat-form-field class=\"example-full-width\">\n      <input id=\"search-form\" name=\"username\" type=\"text\" class=\"form-control d-inline\" placeholder=\"Search by user name...\" size=\"40px\"\n        matInput [formControl]=\"myControl\" [matAutocomplete]=\"autocomplete\">\n      <mat-autocomplete #autocomplete=\"matAutocomplete\">\n        <mat-option *ngFor=\"let option of filteredOption | async\" [value]=\"option.FullName\">\n          {{ option.FullName }}\n        </mat-option>\n      </mat-autocomplete>\n    </mat-form-field>\n    <button id=\"search-button\" class=\"btn btn-outline-secondary\"><i class=\"fas fa-search\"></i></button>\n  </form><br>\n  <div class=\"row\">\n    <div [attr.id]=\"item.UserId\" class=\"user col-lg-4\" *ngFor=\"let item of users | filter: filter | paginate: { itemsPerPage: 9, currentPage: p }\">\n      <div class=\"w-100 m-shadow\">\n        <div class=\"head\">\n          <i class=\"fas text-primary fa-mars\" *ngIf=\"item.Gender==true\"></i>\n          <i class=\"fas text-danger fa-venus\" *ngIf=\"item.Gender==false\"></i>\n          <a routerLink=\"/user-details/{{ item.UserId }}\" id=\"title\">{{item.FullName}}</a>\n          <p class=\"pl-4 text-warning\">{{item.RoleName}}</p>\n        </div>\n        <div class=\"date\">\n          <p><span class=\"font-weight-bold\">Birthday: </span>{{ item.Birthdate | date: 'dd/MM/yyyy' }}</p>\n          <p><span class=\"font-weight-bold\">Phone: </span>{{ item.Phone }}</p>\n          <i title=\"Remove this user\" class=\"fas fa-trash-alt\" (click)=\"getUserPicked(item.FullName,item.UserId)\" data-target=\"#deleteModal\" data-toggle=\"modal\"></i>\n        </div>\n      </div>\n    </div>\n  </div>\n  <br>\n  <pagination-controls class=\"d-flex justify-content-end\" (pageChange)=\"p = $event\"></pagination-controls>\n  <div *ngIf=\"logs?.length == 0\">\n    <h2>Sorry No Result Found</h2>\n  </div>\n</div>\n<!-- Modal -->\n<div class=\"modal fade\" id=\"AddUserModal\" tabindex=\"-1\" role=\"dialog\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\" style=\"border-radius:5px 5px 0px 0px;background-color:#474747;color:white\">\n        <h5 class=\"modal-title ml-auto\">Please enter full information of the user.</h5>\n        <button type=\"button\" class=\"close text-light\" data-dismiss=\"modal\">\n          <span aria-hidden=\"true\">&times;</span>\n          <span class=\"sr-only\">Close</span>\n        </button>\n      </div>\n      <div class=\"modal-body table table-striped\">\n        <form #formAdd=\"ngForm\">\n          <div class=\"form-horizontal\">\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">UserName</span>\n                <div class=\"col-md-9\">\n                  <input name=\"UserName\" ngModel class=\"form-control\" type=\"text\" value=\"\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Password</span>\n                <div class=\"col-md-9\">\n                  <input name=\"Password\" ngModel class=\"form-control\" type=\"password\" value=\"\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">RePassword</span>\n                <div class=\"col-md-9\">\n                  <input class=\"form-control\" type=\"password\" value=\"\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">FullName</span>\n                <div class=\"col-md-9\">\n                  <input name=\"FullName\" ngModel class=\"form-control\" type=\"text\" value=\"\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Birthday</span>\n                <div class=\"col-md-9\">\n                  <input name=\"Birthdate\" ngModel class=\"form-control\" type=\"date\" value=\"\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Gender</span>\n                <div class=\"col-md-9\">\n                  <select name=\"Gender\" ngModel class=\"form-control\">\n                    <option value=\"\" selected disabled hidden>Choose Gender</option>\n                    <option>\n                      Male\n                    </option>\n                    <option>\n                      Female\n                    </option>\n                  </select>\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Phone</span>\n                <div class=\"col-md-9\">\n                  <input name=\"Phone\" ngModel class=\"form-control\" type=\"number\" value=\"\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">Address</span>\n                <div class=\"col-md-9\">\n                  <input name=\"Address\" ngModel class=\"form-control\" type=\"text\" value=\"\" />\n                </div>\n              </div>\n            </div>\n            <div class=\"form-group\">\n              <div class=\"row\">\n                <span class=\"control-label col-md-3 my-1\">RoleName</span>\n                <div class=\"col-md-9\">\n                  <select name=\"RoleId\" ngModel class=\"form-control\">\n                    <option value=\"\" selected disabled hidden>Choose RoleName</option>\n                    <option *ngFor=\"let role of roles\">\n                      {{role.RoleName}}\n                    </option>\n                  </select>\n                </div>\n              </div>\n            </div>\n          </div>\n          <div class=\"modal-footer text-center\">\n            <div class=\"form-actions no-color text-center\">\n              <input data-dismiss=\"modal\" class=\"btn btn-outline-dark mr-1\" type=\"submit\" value=\"Save\" (click)=\"onSubmit(formAdd)\" />\n              <button class=\"btn btn-outline-dark\" data-dismiss=\"modal\">Cancel</button>\n            </div>\n          </div>\n        </form>\n      </div>\n    </div>\n  </div>\n</div>\n<!-- Modal Delete -->\n<div class=\"modal fade\" id=\"deleteModal\" tabindex=\"-1\" role=\"dialog\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\" id=\"myModalLabel\">{{usernamePicked}}</h4>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n          <span aria-hidden=\"true\">×</span>\n          <span class=\"sr-only\">Close</span>\n        </button>\n      </div>\n      <div class=\"modal-body\">\n        <p>Do you really wanna delete this user ?</p>\n      </div>\n      <div class=\"modal-footer\">\n        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">No</button>\n        <button type=\"button\" class=\"btn btn-primary-outline\" (click)=\"DeleteUser(userIdPicked)\" data-dismiss=\"modal\">Yes</button>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -1876,7 +1999,7 @@ module.exports = "<h2 class=\"display-4 d-none d-sm-block\">\n  User Management\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "#search {\n  width: calc(100% - 100px); }\n"
+module.exports = ".user {\n  margin-top: 5px; }\n\n.user .date {\n  font-size: 0.8em;\n  display: flex;\n  width: 100%;\n  text-align: right; }\n\n.user .date p {\n  margin-left: 15px; }\n\n.user .date i {\n  font-size: 1.4em;\n  margin-left: 15px;\n  color: #b12323;\n  transition: all 0.2s; }\n\n.user .head i {\n  font-size: 1.3em;\n  display: inline-block;\n  padding: 10px; }\n\n.user .head {\n  width: 100%; }\n\n.user .date i:hover {\n  cursor: pointer;\n  color: #e60f0f; }\n\n.user #title {\n  display: inline-block;\n  font-size: 1.2em;\n  text-decoration: none; }\n"
 
 /***/ }),
 
@@ -1891,8 +2014,10 @@ module.exports = "#search {\n  width: calc(100% - 100px); }\n"
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UserMainComponent", function() { return UserMainComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var src_app_service_user_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/service/user.service */ "./src/app/service/user.service.ts");
-/* harmony import */ var src_app_service_role_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/service/role.service */ "./src/app/service/role.service.ts");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var src_app_service_web_api_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/service/web-api.service */ "./src/app/service/web-api.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1905,19 +2030,39 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
+
 var UserMainComponent = /** @class */ (function () {
-    function UserMainComponent(_userService, _roleService) {
-        this._userService = _userService;
-        this._roleService = _roleService;
+    function UserMainComponent(_service) {
+        this._service = _service;
+        this.httpSubscription = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subscription"]();
+        this.p = 1;
+        this.myControl = new _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormControl"]();
     }
     UserMainComponent.prototype.getUserPicked = function (usn, uid) {
         this.usernamePicked = usn;
         this.userIdPicked = uid;
     };
+    UserMainComponent.prototype._filter = function (value) {
+        var filterValue = value.toLowerCase();
+        return this.users.filter(function (result) { return result['FullName'].toLowerCase().includes(filterValue); });
+    };
     UserMainComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.GetAllUsers();
-        this._roleService.GetAllRoles().subscribe(function (x) { return _this.roles = x; });
+        this._service.FetchAll('roles').subscribe(function (x) { return _this.roles = x; });
+        this.filteredOption = this.myControl.valueChanges
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["startWith"])(''), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (value) { return value.length > 0 ? _this._filter(value.toString()) : []; }));
+    };
+    UserMainComponent.prototype.SearchUser = function () {
+        var _this = this;
+        if (this.myControl.value === '') {
+            this.GetAllUsers();
+        }
+        else {
+            this.httpSubscription.add(this._service.GetDetails('users/search', this.myControl.value)
+                .subscribe(function (result) { return _this.users = result; }));
+        }
     };
     UserMainComponent.prototype.findIdByNameRole = function (roleNameSelected) {
         var t = -1;
@@ -1935,29 +2080,27 @@ var UserMainComponent = /** @class */ (function () {
         this.AddUsers();
     };
     UserMainComponent.prototype.AddUsers = function () {
-        this._userService.AddUser(this.newUser).subscribe(function (success) {
-            alert("You add users successful!");
-            window.location.reload();
-        }, function (error) { return alert(error); });
+        var _this = this;
+        this._service.Add('users', this.newUser).subscribe(function (success) { return _this.GetAllUsers(); });
     };
     UserMainComponent.prototype.GetAllUsers = function () {
         var _this = this;
-        this._userService.GetAllUsers().subscribe(function (data) { return _this.users = data; });
+        this._service.FetchAll('users').subscribe(function (data) { return _this.users = data; });
     };
     UserMainComponent.prototype.DeleteUser = function (id) {
-        this._userService.DeleteUser(id).subscribe(function (success) {
-            $("#" + id).hide();
-            alert("You delete users successful!");
-            window.location.reload();
-        }, function (error) { return alert(error); });
+        var _this = this;
+        this._service.Delete('users', id).subscribe(function (success) {
+            _this.GetAllUsers();
+        });
     };
     UserMainComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-user-main',
             template: __webpack_require__(/*! ./user-main.component.html */ "./src/app/user-main/user-main.component.html"),
-            styles: [__webpack_require__(/*! ./user-main.component.scss */ "./src/app/user-main/user-main.component.scss")]
+            styles: [__webpack_require__(/*! ./user-main.component.scss */ "./src/app/user-main/user-main.component.scss")],
+            providers: [src_app_service_web_api_service__WEBPACK_IMPORTED_MODULE_4__["WebAPIService"], { provide: 'Url', useValue: 'http://localhost:19949/api/' }]
         }),
-        __metadata("design:paramtypes", [src_app_service_user_service__WEBPACK_IMPORTED_MODULE_1__["UserService"], src_app_service_role_service__WEBPACK_IMPORTED_MODULE_2__["RoleService"]])
+        __metadata("design:paramtypes", [src_app_service_web_api_service__WEBPACK_IMPORTED_MODULE_4__["WebAPIService"]])
     ], UserMainComponent);
     return UserMainComponent;
 }());
@@ -2026,7 +2169,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\d\MiniProject\WebApp\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\PhuongTH8\Desktop\NewLogWebAPI\LogMS\MiniProject\WebApp\src\main.ts */"./src/main.ts");
 
 
 /***/ })
